@@ -1,6 +1,6 @@
 ---
 name: naive-ui
-description: Naive UI (Vue 3) component-library skill. Invoke when the user needs to implement, debug, select, or upgrade a Naive UI component, layout, theme, dark mode, i18n, or SSR setup — phrases like "n-data-table 远程分页", "Naive UI 暗色模式", "nuxt 集成 naive-ui", "n-form 动态校验", "naive-ui 主题色覆盖", "n-select 虚拟滚动 50000 条" all count. Do not invoke for non-Naive-UI Vue tasks, generic Vue 3 questions, or other UI libraries (Element Plus, Ant Design Vue, Vuetify, PrimeVue).
+description: This skill is a reference manual for the Naive UI Vue 3 component library. Use it when the user works with Naive UI. Not for: other UI libraries (Element Plus, Ant Design Vue, Vuetify, PrimeVue) or generic Vue 3 questions.
 license: MIT
 metadata:
   source: tusen-ai/naive-ui
@@ -49,58 +49,16 @@ Match the user task to one or more rows. Read the listed files **in full before 
 
 > **STOP. Read `references/routing.md` before recommending a component.** Routing.md contains the official component catalogue and selection matrix; do not enumerate components from memory.
 
-## Repository Layout
+## Reference File Anatomy
 
-This directory is the **skill payload** — only what Claude reads at skill-runtime. Generator inputs and maintenance tools live at the `naive-ui-skill/` repo root (not shipped):
+Each reference file follows a predictable shape — no need to read one first to learn the layout:
 
-```text
-naive-ui/                                   ← the shipped skill
-├── SKILL.md                                ← this file (dispatcher)
-├── LICENSE
-└── references/                             ← on-demand knowledge base
-    ├── routing.md                          ← component catalogue & selection matrix
-    ├── foundation/                         ← 10 cross-cutting foundation skills
-    │   ├── quickstart.md
-    │   ├── theming.md
-    │   ├── dark-mode.md
-    │   ├── i18n.md
-    │   ├── ssr.md
-    │   ├── design-color.md
-    │   ├── design-border.md
-    │   ├── design-typography.md
-    │   ├── design-layout.md
-    │   └── design-overview.md
-    ├── rules/                              ← 37 practical rule references
-    │   ├── core-*.md                       ← core-setup, core-theme, core-ssr, …
-    │   └── component-*.md                  ← component-form, component-datatable, …
-    └── components/                         ← 96 components × {api, examples, patterns}
-        └── n-<name>/
-            ├── api.md
-            ├── examples.md
-            └── patterns.md
-```
-
-The `naive-ui-skill/` repo root holds all generator inputs and maintenance scripts (none of which ship with the skill):
-
-```
-naive-ui-skill/                             ← the build repo (NOT shipped)
-├── README.md
-├── LICENSE
-├── naive-ui/                               ← the skill payload (this directory)
-├── assets/                                 ← generator inputs
-│   ├── templates/                          ← 5 generator templates
-│   └── data/                               ← official manifest + source metadata
-├── scripts/                                ← developer-only Python tools
-│   ├── sync_official.py
-│   ├── extract_official.py
-│   ├── generate_references.py              ← auto-runs cleanup_generated.py as a post-step
-│   ├── augment_tocs.py
-│   ├── validate.py
-│   ├── package_skill.py
-│   ├── cleanup_generated.py                ← post-step: drop empty sections + fix double-bullets
-│   └── refresh.py                          ← one-shot wrapper: sync → extract → generate → cleanup → validate
-└── dist/naive-ui.zip                       ← built artefact (gitignored)
-```
+- **`references/routing.md`** — selection matrix + sub-component alias table. Read first when the user asks "which Naive UI component for X?".
+- **`references/components/n-<name>/api.md`** — canonical prop / event / slot / method / expose tables. Empty sections are dropped; the `## Contents` TOC reflects what remains.
+- **`references/components/n-<name>/examples.md`** — list of official demo names with paths into the upstream source.
+- **`references/components/n-<name>/patterns.md`** — selection matrix, performance & remote data, theme & SSR, antipatterns, related official docs.
+- **`references/foundation/*.md`** — one self-contained guide per cross-cutting topic (install, theming, dark mode, i18n, SSR, design tokens).
+- **`references/rules/core-*.md` / `component-*.md`** — bite-sized rules for specific patterns; each carries a `## Contents` at the top.
 
 ## Operating Loop
 
@@ -111,54 +69,3 @@ naive-ui-skill/                             ← the build repo (NOT shipped)
    - Cross-cutting question → `references/foundation/<name>.md` or `references/rules/<rule>.md`.
 3. **Apply the references verbatim** — every prop/event/slot name, default value, and version field must come from `references/components/<name>/api.md`, not from this file.
 4. **For framework-wide concerns** (auto-import, Provider order, JSX, controlled/uncontrolled), consult `references/rules/core-*.md`.
-
-## Conventions
-
-- **Dispatcher, not encyclopedia.** This file stays lean (target <300 lines). Do not paste API tables here.
-- **One-level reference depth.** `references/*.md` files do not link to other `references/*.md` (except the canonical back-router `references/routing.md`, which is explicitly whitelisted). Every reference is one click from this file.
-- **Generated content is marked.** `references/components/<name>/api.md` files include `<!-- generated -->` markers and an `officialRef` (commit SHA) for traceability.
-- **Hand-reviewed files** are flagged via `metadata.handReviewed: true` and listed in the `CHANGELOG.md`.
-- **`license: MIT` is informational only.** The Claude Code skill loader only consumes `name` and `description`; the field is kept here for humans reading the frontmatter.
-
-## Maintenance Commands
-
-Run the project-root wrapper for a one-shot refresh:
-
-```bash
-# from the repo root (naive-ui-skill/)
-python scripts/refresh.py                # sync + extract + generate + cleanup + validate
-python scripts/refresh.py --package      # also rebuild dist/naive-ui.zip
-python scripts/refresh.py --ref v2.40.0  # pin to a specific official tag
-python scripts/refresh.py --skip-sync    # reuse an existing .cache/naive-ui
-```
-
-Or run each step individually from the `naive-ui-skill/` repo root:
-
-```bash
-# 1. Sync the official Naive UI source into .cache/naive-ui
-python scripts/sync_official.py --ref main
-
-# 2. Extract the official manifest from src/<comp>/demos/{enUS,zhCN}/index.demo-entry.md
-python scripts/extract_official.py
-
-# 3. Regenerate all references/components/ from manifest + assets/templates/.
-#    generate_references.py auto-invokes scripts/cleanup_generated.py as a
-#    post-step, so freshly regenerated files have no empty sections or
-#    `- - ` double-bullets.
-python scripts/generate_references.py
-
-# 4. (optional) Inject `## Contents` blocks into any reference file that grew past 100 lines
-python scripts/augment_tocs.py
-
-# 5. Validate the skill (frontmatter, router, link integrity, ref depth)
-python scripts/validate.py
-
-# 6. Package for distribution (zip naive-ui/ into dist/naive-ui.zip)
-python scripts/package_skill.py naive-ui dist
-
-# 7. (optional) Re-run the cleanup on its own — idempotent
-python scripts/cleanup_generated.py --dry-run   # preview
-python scripts/cleanup_generated.py             # apply
-```
-
-> **STOP. Run `python scripts/validate.py` after every regeneration.** Validation must report 0 error before publishing.
