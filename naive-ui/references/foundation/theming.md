@@ -2,7 +2,7 @@
 name: naive-ui-theming
 description: Customize and apply themes in Naive UI including dark mode, theme variables, and creating themed components
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: 1.0.0
 ---
 

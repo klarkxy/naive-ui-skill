@@ -2,7 +2,7 @@
 name: "naive-ui-design-color"
 description: "Color design specifications for Naive UI. Invoke when user needs to understand the color palette, main colors, semantic colors, or neutral colors used in Naive UI."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

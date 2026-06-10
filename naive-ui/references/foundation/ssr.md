@@ -2,7 +2,7 @@
 name: "naive-ui-ssr"
 description: "Server-Side Rendering configuration and best practices for Naive UI. Invoke when user needs to implement SSR with Naive UI in Nuxt.js, Vitepress, Vite SSG/SSE, or Webpack environments."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

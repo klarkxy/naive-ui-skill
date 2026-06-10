@@ -2,7 +2,7 @@
 name: "n-number-animation-api"
 description: "Official API reference for Number Animation (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
-- [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -40,25 +38,11 @@ metadata:
 | to | `number` | `undefined` | Target value. | 2.23.2 |
 | on-finish | `() => void` | `undefined` | The callback on animation is finished. | 2.31.0 |
 
-## Events
-
-_（无数据）_
-
-## Slots
-
-_（无数据）_
-
 ## Methods / Exposes
 
 | Name | Parameters | Description | Version |
 | --- | --- | --- | --- |
 | play | `()` | Play the animation. | 2.23.2 |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

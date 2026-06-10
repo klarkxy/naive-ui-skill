@@ -2,7 +2,7 @@
 name: "n-menu-api"
 description: "Official API reference for Menu (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
-- [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -81,26 +79,12 @@ metadata:
 | show? | `boolean` | Whether to show the menu item. | 2.32.2 |
 | type | `'divider'` | The type of the menu item, **required!** |  |
 
-## Events
-
-_（无数据）_
-
-## Slots
-
-_（无数据）_
-
 ## Methods / Exposes
 
 | Name | Type | Description | Version |
 | --- | --- | --- | --- |
 | deriveResponsiveState | `() => void` | Recalculate the collapsed state of the responsive menu content. When the width of the menu container is not solely determined by the external width, in the `responsive` mode, the menu content cannot automatically expand after being collapsed. You can call this method to ensure that the menu can be expanded again. | 2.36.0 |
 | showOption | `(key: string \| number) => void` | Expand menu to show option with specified `key`. If `key` is not specified, selected option will be displayed. | 2.27.0 |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

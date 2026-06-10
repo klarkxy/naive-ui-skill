@@ -2,7 +2,7 @@
 name: "{componentKebab}-examples"
 description: "Official demo index for {componentTitle} (enUS + zhCN). Invoke when the user wants to look up an official demo for a specific use case."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "{version}"
   source: "tusen-ai/naive-ui"
   sourceRef: "{officialRef}"

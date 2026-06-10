@@ -2,7 +2,7 @@
 name: "n-code-api"
 description: "Official API reference for Code (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,8 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
-- [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -38,24 +35,6 @@ metadata:
 | show-line-numbers | `boolean` | `false` | Whether to show line numbers. Won't work if `inline` or `word-wrap` is `true`. | 2.32.0 |
 | trim | `boolean` | `true` | Whether to display trimmed code. |  |
 | word-wrap | `boolean` | `false` | Whether to display word-wrapped code. | 2.24.0 |
-
-## Events
-
-_（无数据）_
-
-## Slots
-
-_（无数据）_
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

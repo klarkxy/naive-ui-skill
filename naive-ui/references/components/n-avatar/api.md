@@ -2,7 +2,7 @@
 name: "n-avatar-api"
 description: "Official API reference for Avatar (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -50,10 +48,6 @@ metadata:
 | size | `'small' \| 'medium' \| 'large' \| number` | `'medium'` | Avatar's size. | 2.43.0 |
 | vertical | `boolean` | `false` | Whether display a vertical avatar group. |  |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description | Version |
@@ -67,16 +61,6 @@ _（无数据）_
 | avatar | `(info: { option: { src: string } })` | Avatar of the avatar group. |
 | default | `()` | The content of the avatar group. |
 | rest | `(info: { options: Array<{ src: string }>, rest: number })` | Overflow indicator of the avatar group. |
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

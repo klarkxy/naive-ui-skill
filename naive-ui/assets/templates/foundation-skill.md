@@ -2,7 +2,7 @@
 name: "{skillKebab}"
 description: "{shortZh} Invoke when the user needs to {useCase}."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "{version}"
   source: "tusen-ai/naive-ui"
   sourceRef: "{officialRef}"

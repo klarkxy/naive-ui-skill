@@ -2,7 +2,7 @@
 name: "n-spin-api"
 description: "Official API reference for Spin (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -36,10 +34,6 @@ metadata:
 | radius | `number` | `100` | Outer radius of the spin icon. | 2.44.0 |
 | scale | `number` | `1` | Scale factor of the spin icon. | 2.44.0 |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description |
@@ -47,16 +41,6 @@ _（无数据）_
 | default | `()` | If set, spin will wrap the content. |
 | description | `()` | Description of the spin. |
 | icon | `()` | Customize the spin icon. |
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

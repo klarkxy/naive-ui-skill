@@ -6,17 +6,16 @@ A Claude skill for the [Naive UI](https://www.naiveui.com/) Vue 3 component libr
 
 ```
 naive-ui-skill/
-├── LICENSE
 ├── README.md                         ← this file
-├── naive-ui/                         ← the actual skill (copy this into your skills root)
+├── naive-ui/                         ← the publishable skill (copy this into your skills root)
 │   ├── SKILL.md                      ← single dispatcher entry (READ THIS FIRST)
-│   ├── scripts/                      ← Python, exec'able by Claude
-│   │   ├── sync_official.py          ← shallow-clone tusen-ai/naive-ui
-│   │   ├── extract_official.py       ← parse demos into a manifest
-│   │   ├── generate_references.py    ← regenerate references/components/ from manifest + templates
-│   │   ├── augment_tocs.py           ← inject ## Contents into >100-line references
-│   │   ├── validate.py               ← structural and quality checks
-│   │   └── package_skill.py          ← zip the skill for distribution
+│   ├── scripts/                      ← shipped with the skill: maintenance + validation
+│   │   ├── sync_official.py
+│   │   ├── extract_official.py
+│   │   ├── generate_references.py    ← auto-runs cleanup_generated.py as a post-step
+│   │   ├── augment_tocs.py
+│   │   ├── validate.py
+│   │   └── package_skill.py
 │   ├── references/                   ← on-demand knowledge base
 │   │   ├── routing.md                ← component catalogue & selection matrix
 │   │   ├── foundation/               ← 10 cross-cutting foundation skills
@@ -25,6 +24,9 @@ naive-ui-skill/
 │   └── assets/
 │       ├── templates/                ← 5 generator templates
 │       └── data/                     ← official manifest snapshot
+├── scripts/                          ← developer-only, not in the packaged zip
+│   ├── cleanup_generated.py          ← invoked automatically by generate_references.py
+│   └── refresh.py                    ← one-shot wrapper for the full refresh pipeline
 └── dist/                             ← built zips (gitignored)
     └── naive-ui.zip
 ```
@@ -54,19 +56,38 @@ Or rely on the description match: any user request mentioning "Naive UI", "n-dat
 
 ## Maintenance
 
-The skill is regenerable from the official source. To refresh, run from inside the `naive-ui/` directory:
+The skill is regenerable from the official source. The simplest path is the project-root wrapper:
+
+```bash
+cd naive-ui-skill
+python scripts/refresh.py                 # sync + extract + generate + cleanup + validate
+python scripts/refresh.py --package       # also rebuild dist/naive-ui.zip
+python scripts/refresh.py --ref v2.40.0   # pin to a specific official tag
+python scripts/refresh.py --skip-sync     # reuse an existing .cache/naive-ui
+```
+
+To run steps individually from inside `naive-ui/`:
 
 ```bash
 cd naive-ui
 python scripts/sync_official.py --ref main            # shallow-clone to .cache/naive-ui
 python scripts/extract_official.py                    # parse demos into manifest
-python scripts/generate_references.py                 # regenerate references/components/
-python scripts/augment_tocs.py                        # inject ## Contents
+python scripts/generate_references.py                 # regenerate + auto-clean
+python scripts/augment_tocs.py                        # inject ## Contents where missing
 python scripts/validate.py                            # must report 0 error
 python scripts/package_skill.py . ../dist             # rebuild dist/naive-ui.zip
 ```
 
 Then `git add -A && git commit -m "chore: refresh from official Naive UI <shortCommit>"`.
+
+### What `cleanup_generated.py` does
+
+After every regeneration, `generate_references.py` invokes `../scripts/cleanup_generated.py` as a post-step. The cleanup sweeps two classes of placeholder noise out of the freshly generated files:
+
+1. **`api.md`** — drops `## X` sections whose body is just `_（无数据）_` (a placeholder emitted by `rows_to_table([])` when the upstream source has no events / slots / methods / sub-components). The `## Contents` TOC is rebuilt to list only surviving sections.
+2. **`patterns.md`** — collapses `- - X` (double-bullet artefact from the template) into `- X`.
+
+It is idempotent: re-running it on already-clean files is a no-op.
 
 ## Source & License
 

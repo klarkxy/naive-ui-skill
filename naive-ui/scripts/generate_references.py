@@ -290,6 +290,20 @@ def main() -> None:
         p.write_text(content, encoding="utf8")
     print(f"Wrote {len(plan)} files for {len(keys)} components under {out_root}")
 
+    # Post-step: run the project-root cleanup so freshly regenerated files
+    # don't carry placeholder noise. Failure here is non-fatal — the operator
+    # can re-run `scripts/cleanup_generated.py` manually.
+    try:
+        import runpy
+        repo_root = SKILL_ROOT.parent  # naive-ui/ -> naive-ui-skill/
+        cleanup_path = repo_root / "scripts" / "cleanup_generated.py"
+        if cleanup_path.exists():
+            print(f"Post-step: {cleanup_path.relative_to(repo_root)}")
+            runpy.run_path(str(cleanup_path), run_name="__main__")
+    except SystemExit as e:  # the cleanup script uses sys.exit() to abort
+        if e.code:
+            print(f"cleanup_generated.py exited with code {e.code}", file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()

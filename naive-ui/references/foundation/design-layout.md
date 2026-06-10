@@ -2,7 +2,7 @@
 name: "naive-ui-design-layout"
 description: "Layout system for Naive UI including Grid, Flex, Space, and Layout components. Invoke when user needs to create responsive layouts, grid systems, or understand layout components."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

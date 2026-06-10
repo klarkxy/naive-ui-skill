@@ -2,7 +2,7 @@
 name: "n-input-number-api"
 description: "Official API reference for Input Number (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,10 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -60,10 +59,6 @@ metadata:
 | on-focus | `(event: FocusEvent) => void` | `undefined` | Callback triggered when the input is focussed on. |  |
 | on-update:value | `(value: number \| null) => void` | `undefined` | Callback triggered when the input value changes. |  |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description | Version |
@@ -79,12 +74,6 @@ _（无数据）_
 | --- | --- | --- |
 | blur | `() => void` | Blur the input number. |
 | focus | `() => void` | Focus the input number. |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

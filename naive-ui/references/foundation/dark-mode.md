@@ -2,7 +2,7 @@
 name: "naive-ui-dark-mode"
 description: "Dark mode implementation and theme switching for Naive UI applications. Invoke when user needs to implement dark/light theme switching, follow system preferences, or customize dark theme variables."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

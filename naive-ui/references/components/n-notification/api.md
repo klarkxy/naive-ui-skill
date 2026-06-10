@@ -2,7 +2,7 @@
 name: "n-notification-api"
 description: "Official API reference for Notification (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
-- [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -51,14 +49,6 @@ metadata:
 | onClose | `() => boolean \| Promise<boolean>` | `undefined` | The callback of notification closing. Returning `false`, promise resolve `false` or promise reject will cancel this closing. |  |
 | onLeave | `Function` | `undefined` | Callback triggered when Transition's leave animation executed. |  |
 
-## Events
-
-_（无数据）_
-
-## Slots
-
-_（无数据）_
-
 ## Methods / Exposes
 
 | Name | Type | Description |
@@ -69,12 +59,6 @@ _（无数据）_
 | info | `(option: NotificationOption) => NotificationReactive` | Use `info` type notification. |
 | success | `(option: NotificationOption) => NotificationReactive` | Use `success` type notification. |
 | warning | `(option: NotificationOption) => NotificationReactive` | Use `warning` type notification. |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

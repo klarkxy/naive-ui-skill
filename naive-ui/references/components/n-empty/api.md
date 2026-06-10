@@ -2,7 +2,7 @@
 name: "n-empty-api"
 description: "Official API reference for Empty (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -36,10 +34,6 @@ metadata:
 | show-icon | `boolean` | `true` | Whether to show icon of empty. |  |
 | size | `'tiny' \| 'small' \| 'medium' \| 'large' \| 'huge'` | `'medium'` | Empty's size. | 2.40.0 |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description |
@@ -47,16 +41,6 @@ _（无数据）_
 | default | `()` | In place of description prop |
 | extra | `()` | Extra content. |
 | icon | `()` | Custom icon. |
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

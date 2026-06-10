@@ -2,7 +2,7 @@
 name: "n-date-picker-api"
 description: "Official API reference for Date Picker (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,10 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -150,10 +149,6 @@ metadata:
 | on-update:formatted-value | `(value: string \| null, timestampValue: number \| null) => void` | `undefined` | Formatted value changed callback. | 2.37.0 |
 | on-update:value | `(value: number \| null, formattedValue: string \| null) => void` | `undefined` | Value changed callback. | 2.37.0 |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description | Version |
@@ -182,12 +177,6 @@ _（无数据）_
 | --- | --- | --- | --- |
 | focus | `() => void` | Focus. | 2.24.2 |
 | blur | `() => void` | Blur. | 2.24.2 |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

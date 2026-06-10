@@ -2,7 +2,7 @@
 name: "naive-ui-design-overview"
 description: "Overview of all Naive UI components organized by category. Invoke when user needs a quick reference to all available components or wants to explore the component library."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

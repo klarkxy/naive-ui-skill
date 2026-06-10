@@ -2,7 +2,7 @@
 name: "n-result-examples"
 description: "Official demo index for Result (enUS + zhCN). Invoke when the user wants to look up an official demo for a specific use case."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"

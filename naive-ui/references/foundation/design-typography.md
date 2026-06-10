@@ -2,7 +2,7 @@
 name: "naive-ui-design-typography"
 description: "Typography design specifications for Naive UI. Invoke when user needs to understand font conventions, font-family settings, or text styling guidelines."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

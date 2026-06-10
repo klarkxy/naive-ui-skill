@@ -2,7 +2,7 @@
 name: "n-calendar-api"
 description: "Official API reference for Calendar (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -37,26 +35,12 @@ metadata:
 | on-panel-change | `(info: { year: number, month: number })` | `undefined` | Callback on panel content is changed. | 2.24.0 |
 | on-update:value | `(timestamp: number, info: { year: number, month: number, date: number }) => void` | `undefined` | Callback on date is selected. `month` starts from 1. |  |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description | Version |
 | --- | --- | --- | --- |
 | default | `({ year: number, month: number, date: number })` | Content to be rendered in each date. |  |
 | header | `(props: { year: number, month: number })` | Header of the calendar. `month` starts from 1. | 2.29.1 |
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

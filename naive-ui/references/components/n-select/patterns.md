@@ -2,7 +2,7 @@
 name: "n-select-patterns"
 description: "Patterns, pitfalls, theme, SSR, and selection guidance for Select. Invoke when the user is making a real-world decision about Select, handling edge cases, or comparing it to neighbouring components."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -49,7 +49,7 @@ metadata:
 
 ## Antipatterns
 
-- - Reaching into the component's internal DOM with `document.querySelector`.
+- Reaching into the component's internal DOM with `document.querySelector`.
 - Calling `useThemeVars()` outside `n-config-provider`.
 - Copy-pasting old demo code without checking the `Version` column.
 

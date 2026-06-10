@@ -2,7 +2,7 @@
 name: naive-ui-quickstart
 description: Get started with Naive UI - a Vue 3 component library with comprehensive installation and setup guide
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: 1.0.0
 ---
 

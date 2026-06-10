@@ -2,7 +2,7 @@
 name: "n-input-otp-api"
 description: "Official API reference for Input Otp (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,10 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -48,10 +47,6 @@ metadata:
 | on-focus | `(event: FocusEvent, index: number) => void` | `InputOtpOnFocus` | `undefined` | Callback fired when the focus is moved from outside to the component. | 2.41.1 |
 | on-update:value | `(value: string[], meta: { diff: string, index: number, source: 'input' \| 'delete' \| 'paste' }) => void` | `InputOtpOnUpdateValue`, `InputOtpOnUpdateValueMeta`, `InputOtpOnUpdateValueMetaSource` | `undefined` | Callback fired when user inputs value. `meta.index` is the start index of the value change.`meta.diff` is the content that changes. `meta.source` is the reason of the value change. If reason is `'delete'`, `meta.diff` is `''`. If reason is `'paste'`, `meta.diff` is the final accepted part of the paste content. | 2.41.1 |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Type Alias | Description | Version |
@@ -63,12 +58,6 @@ _（无数据）_
 | 名称 | 类型 | 说明 | 版本 |
 | --- | --- | --- | --- |
 | focusOnChar | `(charIndex: number) => void` | Focus on a certain input box. | 2.43.0 |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

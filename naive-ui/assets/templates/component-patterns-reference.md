@@ -2,7 +2,7 @@
 name: "{componentKebab}-patterns"
 description: "Patterns, pitfalls, theme, SSR, and selection guidance for {componentTitle}. Invoke when the user is making a real-world decision about {componentTitle}, handling edge cases, or comparing it to neighbouring components."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "{version}"
   source: "tusen-ai/naive-ui"
   sourceRef: "{officialRef}"

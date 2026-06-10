@@ -2,7 +2,7 @@
 name: "n-loading-bar-api"
 description: "Official API reference for Loading Bar (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
-- [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -36,14 +34,6 @@ metadata:
 | loading-bar-style | `{ loading?: string \| object, error?: string \| object }` | `undefined` | Style of the loading bar. |  |
 | to | `string \| HTMLElement \| false` | `undefined` | Mount target of loading bar. | 2.33.4 |
 
-## Events
-
-_（无数据）_
-
-## Slots
-
-_（无数据）_
-
 ## Methods / Exposes
 
 | Name | Type | Description |
@@ -51,12 +41,6 @@ _（无数据）_
 | error | `() => void` | Callback function for loading bar error. |
 | finish | `() => void` | The callback function when the loading bar finishes loading. |
 | start | `() => void` | Callback function for loading bar to start loading. |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

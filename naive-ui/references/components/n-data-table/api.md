@@ -2,7 +2,7 @@
 name: "n-data-table-api"
 description: "Official API reference for Data Table (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,10 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -86,10 +85,6 @@ metadata:
 | on-update:page-size | `(pageSize: number) => void` | `undefined` | Callback function triggered when the page-size changes. |  |
 | on-update:sorter | `(options: DataTableSortState \| DataTableSortState[] \| null) => void` | `undefined` | If the change column is sorted by multiple columns, will return `DataTableSortState[] \| null`, otherwise return `DataTableSortState \| null`. |  |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Type | Description | Version |
@@ -108,12 +103,6 @@ _（无数据）_
 | page | `(page: number) => void` | Manually set the page. |  |
 | scrollTo | `(options: { left?: number, top?: number, behavior?: ScrollBehavior }): void & (x: number, y: number) => void` | Scroll content. | 2.30.4 |
 | sort | `(columnKey: string \| number, order: 'ascend' \| 'descend' \| false) => void` | Set the sort state of the table. |  |
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

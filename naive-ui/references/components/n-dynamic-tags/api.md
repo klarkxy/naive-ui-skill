@@ -2,7 +2,7 @@
 name: "n-dynamic-tags-api"
 description: "Official API reference for Dynamic Tags (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,9 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
 - [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -49,26 +47,12 @@ metadata:
 | on-create | `((label: string) => string) \| ((label: string) => ({ label: string, value: string }))` | `label => label` | Create derived value from input. | 2.30.4 |
 | on-update:value | `((value: string[]) => void) \| ((value: DynamicTagsOption[]) => void)` | `undefined` | Callback when the component's value changes. |  |
 
-## Events
-
-_（无数据）_
-
 ## Slots
 
 | Name | Parameters | Description | Version |
 | --- | --- | --- | --- |
 | input | `(info: { submit: (value: any) => void, deactivate: () => void })` | Custom element(s) to replace the regular input. | `deactivate` 2.26.2 |
 | trigger | `(info: { activate: () => void, disabled: boolean })` | The element or component that triggers the tag to switch to an input. |  |
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 

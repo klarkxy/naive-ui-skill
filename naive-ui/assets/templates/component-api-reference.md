@@ -2,7 +2,7 @@
 name: "{componentKebab}-api"
 description: "Official API reference for {componentTitle} (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "{version}"
   source: "tusen-ai/naive-ui"
   sourceRef: "{officialRef}"

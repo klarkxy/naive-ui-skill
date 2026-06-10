@@ -2,7 +2,7 @@
 name: "naive-ui-design-border"
 description: "Border design specifications for Naive UI components. Invoke when user needs to understand border styles, radius options, or shadow styles used throughout Naive UI."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "1.0.0"
 ---
 

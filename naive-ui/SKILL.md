@@ -83,7 +83,19 @@ naive-ui/
     ├── extract_official.py                 ← parse demos into data/official-manifest.generated.json
     ├── generate_references.py              ← regenerate references/components/ from manifest + templates/
     ├── augment_tocs.py                     ← inject `## Contents` into >100-line references
-    └── validate.py                         ← check frontmatter, router, link, and ref depth
+    ├── validate.py                         ← check frontmatter, router, link, and ref depth
+    └── package_skill.py                    ← zip the skill into ../dist/naive-ui.zip
+```
+
+The `naive-ui-skill/` repo also has a project-root `scripts/` directory (not shipped with the skill — developer-only):
+
+```
+naive-ui-skill/
+├── README.md
+├── naive-ui/                               ← the skill (this directory)
+└── scripts/                                ← developer-only, not in the packaged zip
+    ├── cleanup_generated.py                ← post-step that runs from inside generate_references.py
+    └── refresh.py                          ← one-shot wrapper: sync → extract → generate → cleanup → validate
 ```
 
 ## Operating Loop
@@ -106,24 +118,45 @@ naive-ui/
 
 ## Maintenance Commands
 
+Run the project-root wrapper for a one-shot refresh:
+
 ```bash
+# from the repo root (naive-ui-skill/)
+python scripts/refresh.py                # sync + extract + generate + cleanup + validate
+python scripts/refresh.py --package      # also rebuild dist/naive-ui.zip
+python scripts/refresh.py --ref v2.40.0  # pin to a specific official tag
+python scripts/refresh.py --skip-sync    # reuse an existing .cache/naive-ui
+```
+
+Or run each step individually from inside the `naive-ui/` directory:
+
+```bash
+cd naive-ui
+
 # 1. Sync the official Naive UI source into .cache/naive-ui
 python scripts/sync_official.py --ref main
 
 # 2. Extract the official manifest from src/<comp>/demos/{enUS,zhCN}/index.demo-entry.md
 python scripts/extract_official.py
 
-# 3. Regenerate all references/components/ from manifest + assets/templates/
+# 3. Regenerate all references/components/ from manifest + assets/templates/.
+#    generate_references.py auto-invokes ../scripts/cleanup_generated.py as a
+#    post-step, so freshly regenerated files have no `_（无数据）_` placeholders
+#    or `- - ` double-bullets.
 python scripts/generate_references.py
 
-# 3b. (optional) Inject `## Contents` blocks into any reference file that grew past 100 lines
+# 4. (optional) Inject `## Contents` blocks into any reference file that grew past 100 lines
 python scripts/augment_tocs.py
 
-# 4. Validate the skill (frontmatter, router, link integrity, ref depth)
+# 5. Validate the skill (frontmatter, router, link integrity, ref depth)
 python scripts/validate.py
 
-# 5. Package for distribution (zip this directory into ../dist/naive-ui.zip)
+# 6. Package for distribution (zip this directory into ../dist/naive-ui.zip)
 python scripts/package_skill.py . ../dist
+
+# 7. (optional) Re-run the cleanup on its own — idempotent
+python ../scripts/cleanup_generated.py --dry-run   # preview
+python ../scripts/cleanup_generated.py              # apply
 ```
 
 > **STOP. Run `python scripts/validate.py` after every regeneration.** Validation must report 0 error before publishing.

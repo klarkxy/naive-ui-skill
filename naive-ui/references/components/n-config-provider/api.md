@@ -2,7 +2,7 @@
 name: "n-config-provider-api"
 description: "Official API reference for Config Provider (props / events / slots / methods / exposes). Invoke when the user needs to confirm a prop, event, slot, or method's exact name, type, default value, or version."
 metadata:
-  author: jiaiyan
+  author: klarkxy
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
@@ -21,11 +21,8 @@ metadata:
 ## Contents
 
 - [Props](#props)
-- [Events](#events)
-- [Slots](#slots)
-- [Methods / Exposes](#methods--exposes)
-- [Sub Components](#sub-components)
 - [Source Files](#source-files)
+- [Maintenance](#maintenance)
 
 ## Props
 
@@ -45,24 +42,6 @@ metadata:
 | tag | `string` | `'div'` | What tag `n-config-provider` will be rendered as |  |
 | theme | `Theme \| null` | `undefined` | The theme object to be consumed by its child. If set to `null` it will use the default light theme. If set to `undefined` it will inherit its parent `n-config-provider`. For more details please see [Customizing Theme](../docs/customize-theme). |  |
 | theme-overrides | `ThemeOverrides \| null` | `undefined` | The theme vars overrides to be consumed by its child. If set to `null` it will clear all theme vars. If set to `undefined` it will inherit its parent `n-config-provider`. For more details please see [Customizing Theme](../docs/customize-theme). |  |
-
-## Events
-
-_（无数据）_
-
-## Slots
-
-_（无数据）_
-
-## Methods / Exposes
-
-_（无数据）_
-
-## Sub Components
-
-> Sub-components that belong to the same family (e.g. `<n-form-item>`, `<n-tab-pane>`) are aggregated here. Treat them as part of this family's API; they do not get their own skill entry.
-
-_（无数据）_
 
 ## Source Files
 
