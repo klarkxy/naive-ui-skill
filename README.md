@@ -27,7 +27,7 @@ Uses POSIX `curl` + `tar` only. Set `NAIVE_UI_SKILL_DIR` to override the target.
 ```bash
 # from a clone
 git clone https://github.com/klarkxy/naive-ui-skill.git
-cp -r naive-ui-skill/naive-ui ~/.claude/skills/
+cp -r naive-ui-skill/skills/naive-ui ~/.claude/skills/
 
 # or use the prebuilt zip
 unzip naive-ui-skill/dist/naive-ui.zip -d ~/.claude/skills/

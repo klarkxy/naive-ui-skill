@@ -33,7 +33,7 @@ import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SKILL_ROOT = PROJECT_ROOT / "naive-ui"
+SKILL_ROOT = PROJECT_ROOT / "skills" / "naive-ui"
 SCRIPTS = PROJECT_ROOT / "scripts"
 
 # (script path, runpy argv, friendly name)

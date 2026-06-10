@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SKILL_DIR = PROJECT_ROOT / "naive-ui"
+SKILL_DIR = PROJECT_ROOT / "skills" / "naive-ui"
 TARGETS = [SKILL_DIR / "references"]
 
 

@@ -34,8 +34,8 @@ if [[ -z "$SRC" ]]; then
   echo "error: could not find extracted repo directory under $TMP" >&2
   exit 1
 fi
-if [[ ! -d "$SRC/naive-ui" ]]; then
-  echo "error: $SRC/naive-ui not found — repo layout changed?" >&2
+if [[ ! -d "$SRC/skills/naive-ui" ]]; then
+  echo "error: $SRC/skills/naive-ui not found — repo layout changed?" >&2
   exit 1
 fi
 
@@ -47,7 +47,7 @@ if [[ -d "$DEST" && -n "$(ls -A "$DEST" 2>/dev/null)" ]]; then
   exit 1
 fi
 mkdir -p "$DEST"
-cp -r "$SRC/naive-ui/." "$DEST/"
+cp -r "$SRC/skills/naive-ui/." "$DEST/"
 
 echo "✓ Installed."
 echo ""

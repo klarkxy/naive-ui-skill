@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SKILL_ROOT = PROJECT_ROOT / "naive-ui"  # the shipped skill payload
+SKILL_ROOT = PROJECT_ROOT / "skills" / "naive-ui"  # the shipped skill payload
 MANIFEST = PROJECT_ROOT / "assets" / "data" / "official-manifest.generated.json"
 EXCLUDED = {
     "_internal", "_mixins", "_styles", "_utils",

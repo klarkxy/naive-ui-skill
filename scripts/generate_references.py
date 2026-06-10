@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SKILL_DIR = PROJECT_ROOT / "naive-ui"
+SKILL_DIR = PROJECT_ROOT / "skills" / "naive-ui"
 ASSETS_DIR = PROJECT_ROOT / "assets"
 MANIFEST = ASSETS_DIR / "data" / "official-manifest.generated.json"
 TEMPLATES = ASSETS_DIR / "templates"
