@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T08:19:02.819Z",
+  "generatedAt": "2026-06-10T05:47:50.172850+00:00",
   "source": {
     "path": "D:\\1 code\\naive-ui-skills\\.cache\\naive-ui",
     "ref": "main",
@@ -16,11 +16,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -53,24 +48,6 @@
         "use-style.ts",
         "use-theme.ts"
       ],
-      "sourceScan": {
-        "propNames": [
-          "builtinThemeOverrides"
-        ],
-        "slots": [],
-        "exposenames": [
-          "onRender",
-          "handleContentBlur",
-          "handleContentChange",
-          "handleContentFocus",
-          "handleContentInput",
-          "nTriggerFormBlur",
-          "nTriggerFormChange",
-          "nTriggerFormFocus",
-          "nTriggerFormInput",
-          "restoreValidation"
-        ]
-      },
       "api": {
         "props": [],
         "events": [],
@@ -92,11 +69,6 @@
       "componentName": "N_styles",
       "description": null,
       "sourceFiles": [],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -120,11 +92,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -148,17 +115,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Affix Props",
-            "source": ".cache\\naive-ui\\src\\affix\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\affix\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -251,8 +213,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\affix\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\affix\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\affix\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\affix\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "alert": {
@@ -262,17 +224,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Alert Props",
-            "source": ".cache\\naive-ui\\src\\alert\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\alert\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -379,8 +336,8 @@
         "slots": [
           {
             "title": "Alert Slots",
-            "source": ".cache\\naive-ui\\src\\alert\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\alert\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -439,28 +396,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\alert\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\alert\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\alert\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\alert\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "anchor": {
       "key": "anchor",
       "componentName": "NAnchor",
-      "description": "Tell you where you are.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Anchor Props",
-            "source": ".cache\\naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -550,8 +502,8 @@
           },
           {
             "title": "AnchorLink Props",
-            "source": ".cache\\naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -584,8 +536,8 @@
         "slots": [
           {
             "title": "AnchorLink Slots",
-            "source": ".cache\\naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -605,8 +557,8 @@
         "methods": [
           {
             "title": "Anchor Methods",
-            "source": ".cache\\naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -639,8 +591,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\anchor\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\anchor\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\anchor\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "auto-complete": {
@@ -650,17 +602,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "AutoComplete Props",
-            "source": ".cache\\naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1019,8 +966,8 @@
         "slots": [
           {
             "title": "AutoComplete Slots",
-            "source": ".cache\\naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1076,8 +1023,8 @@
         "methods": [
           {
             "title": "AutoComplete Methods",
-            "source": ".cache\\naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1133,8 +1080,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\auto-complete\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\auto-complete\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\auto-complete\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "avatar": {
@@ -1144,17 +1091,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Avatar Props",
-            "source": ".cache\\naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1328,8 +1270,8 @@
           },
           {
             "title": "AvatarGroup Props",
-            "source": ".cache\\naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1422,8 +1364,8 @@
         "slots": [
           {
             "title": "Avatar Slots",
-            "source": ".cache\\naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1465,8 +1407,8 @@
           },
           {
             "title": "AvatarGroup Slots",
-            "source": ".cache\\naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1533,8 +1475,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\avatar\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\avatar\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\avatar\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "avatar-group": {
@@ -1544,11 +1486,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -1568,21 +1505,16 @@
     "back-top": {
       "key": "back-top",
       "componentName": "NBackTop",
-      "description": "It helps you back to where you were. However, time never goes back.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "BackTop Props",
-            "source": ".cache\\naive-ui\\src\\back-top\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\back-top\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1691,8 +1623,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\back-top\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\back-top\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\back-top\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\back-top\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "badge": {
@@ -1702,17 +1634,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Badge Props",
-            "source": ".cache\\naive-ui\\src\\badge\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\badge\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1847,8 +1774,8 @@
         "slots": [
           {
             "title": "Badge Slots",
-            "source": ".cache\\naive-ui\\src\\badge\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\badge\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1894,8 +1821,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\badge\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\badge\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\badge\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\badge\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "breadcrumb": {
@@ -1905,17 +1832,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Breadcrumb Props",
-            "source": ".cache\\naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1933,8 +1855,8 @@
           },
           {
             "title": "BreadcrumbItem Props",
-            "source": ".cache\\naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -1999,8 +1921,8 @@
         "slots": [
           {
             "title": "Breadcrumb Slots",
-            "source": ".cache\\naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2016,8 +1938,8 @@
           },
           {
             "title": "Breadcrumb Item Slots",
-            "source": ".cache\\naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2060,8 +1982,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\breadcrumb\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\breadcrumb\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\breadcrumb\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "button": {
@@ -2071,17 +1993,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Button Props",
-            "source": ".cache\\naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2437,8 +2354,8 @@
           },
           {
             "title": "ButtonGroup Props",
-            "source": ".cache\\naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2471,8 +2388,8 @@
         "slots": [
           {
             "title": "Button Slots",
-            "source": ".cache\\naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2498,8 +2415,8 @@
           },
           {
             "title": "ButtonGroup Slots",
-            "source": ".cache\\naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2562,8 +2479,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\button\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\button\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\button\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "button-group": {
@@ -2573,11 +2490,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -2601,17 +2513,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Calendar Props",
-            "source": ".cache\\naive-ui\\src\\calendar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\calendar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2690,8 +2597,8 @@
         "slots": [
           {
             "title": "Calendar Slots",
-            "source": ".cache\\naive-ui\\src\\calendar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\calendar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -2732,8 +2639,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\calendar\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\calendar\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\calendar\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\calendar\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "card": {
@@ -2743,17 +2650,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Card Props",
-            "source": ".cache\\naive-ui\\src\\card\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\card\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -3098,8 +3000,8 @@
         "slots": [
           {
             "title": "Card Slots",
-            "source": ".cache\\naive-ui\\src\\card\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\card\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -3202,8 +3104,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\card\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\card\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\card\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\card\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "carousel": {
@@ -3213,17 +3115,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Carousel Props",
-            "source": ".cache\\naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -3568,8 +3465,8 @@
         "slots": [
           {
             "title": "Carousel Slots",
-            "source": ".cache\\naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -3601,8 +3498,8 @@
         "methods": [
           {
             "title": "Carousel Methods",
-            "source": ".cache\\naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -3700,8 +3597,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\carousel\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\carousel\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\carousel\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "cascader": {
@@ -3711,17 +3608,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Cascader Props",
-            "source": ".cache\\naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4318,8 +4210,8 @@
         "slots": [
           {
             "title": "Cascader Slots",
-            "source": ".cache\\naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4375,8 +4267,8 @@
         "methods": [
           {
             "title": "Cascader Methods",
-            "source": ".cache\\naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4463,8 +4355,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\cascader\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\cascader\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\cascader\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "checkbox": {
@@ -4474,17 +4366,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Checkbox Props",
-            "source": ".cache\\naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4622,8 +4509,8 @@
           },
           {
             "title": "CheckboxGroup Props",
-            "source": ".cache\\naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4716,8 +4603,8 @@
         "slots": [
           {
             "title": "Checkbox Slots",
-            "source": ".cache\\naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4733,8 +4620,8 @@
           },
           {
             "title": "CheckboxGroup Slots",
-            "source": ".cache\\naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4752,8 +4639,8 @@
         "methods": [
           {
             "title": "Checkbox Methods",
-            "source": ".cache\\naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4810,8 +4697,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\checkbox\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\checkbox\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\checkbox\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "code": {
@@ -4821,17 +4708,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Code Props",
-            "source": ".cache\\naive-ui\\src\\code\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\code\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4955,8 +4837,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\code\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\code\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\code\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\code\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "collapse": {
@@ -4966,17 +4848,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Collapse Props",
-            "source": ".cache\\naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -4996,8 +4873,8 @@
           },
           {
             "title": "CollapseItem Props",
-            "source": ".cache\\naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5062,8 +4939,8 @@
         "slots": [
           {
             "title": "Collapse Slots",
-            "source": ".cache\\naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5099,8 +4976,8 @@
           },
           {
             "title": "CollapseItem Slots",
-            "source": ".cache\\naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5178,8 +5055,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\collapse\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\collapse\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\collapse\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "collapse-transition": {
@@ -5189,17 +5066,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "CollapseTransition Props",
-            "source": ".cache\\naive-ui\\src\\collapse-transition\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\collapse-transition\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5232,8 +5104,8 @@
         "slots": [
           {
             "title": "CollapseTransition Slots",
-            "source": ".cache\\naive-ui\\src\\collapse-transition\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\collapse-transition\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5261,8 +5133,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\collapse-transition\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\collapse-transition\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\collapse-transition\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\collapse-transition\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "color-picker": {
@@ -5272,17 +5144,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "ColorPicker Props",
-            "source": ".cache\\naive-ui\\src\\color-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\color-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5557,8 +5424,8 @@
         "slots": [
           {
             "title": "ColorPicker Slots",
-            "source": ".cache\\naive-ui\\src\\color-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\color-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5630,8 +5497,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\color-picker\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\color-picker\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\color-picker\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\color-picker\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "composables": {
@@ -5642,11 +5509,6 @@
         "index.ts",
         "use-theme-vars.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -5668,18 +5530,13 @@
       "componentName": "NConfigConsumer",
       "description": "Config Consumer is built for getting config (usually as global config) of Config Provider.",
       "sourceFiles": [],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [
           {
             "title": "Events",
-            "source": ".cache\\naive-ui\\src\\config-consumer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\config-consumer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5699,8 +5556,8 @@
         "slots": [
           {
             "title": "Slots",
-            "source": ".cache\\naive-ui\\src\\config-consumer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\config-consumer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5729,8 +5586,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\config-consumer\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\config-consumer\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\config-consumer\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\config-consumer\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "config-provider": {
@@ -5740,17 +5597,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "ConfigProvider Props",
-            "source": ".cache\\naive-ui\\src\\config-provider\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\config-provider\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -5776,7 +5628,7 @@
                 ],
                 "Name": "breakpoints",
                 "Type": "`{ [k: string]: number }`",
-                "Default": "`{ xs: <640, s: â‰¥640, m: â‰¥1024, l: â‰¥1280, xl: â‰¥1536, xxl: â‰¥1920 }`",
+                "Default": "`{ xs: <640, s: ¡Ý640, m: ¡Ý1024, l: ¡Ý1280, xl: ¡Ý1536, xxl: ¡Ý1920 }`",
                 "Description": "Responsive breakpoints, it will be used in `n-grid`. The prop is not responsive, you need to set it on its first mount.",
                 "Version": ""
               },
@@ -5979,8 +5831,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\config-provider\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\config-provider\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\config-provider\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\config-provider\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "countdown": {
@@ -5990,17 +5842,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Countdown Props",
-            "source": ".cache\\naive-ui\\src\\countdown\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\countdown\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -6080,8 +5927,8 @@
         "methods": [
           {
             "title": "Countdown Methods",
-            "source": ".cache\\naive-ui\\src\\countdown\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\countdown\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -6116,28 +5963,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\countdown\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\countdown\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\countdown\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\countdown\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "data-table": {
       "key": "data-table",
       "componentName": "NDataTable",
-      "description": "DataTable is used to displays rows of structured data.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "DataTable Props",
-            "source": ".cache\\naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -6902,8 +6744,8 @@
         "slots": [
           {
             "title": "DataTable Slots",
-            "source": ".cache\\naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -6935,8 +6777,8 @@
         "methods": [
           {
             "title": "DataTable Methods",
-            "source": ".cache\\naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -7126,8 +6968,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\data-table\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\data-table\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\data-table\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "date-picker": {
@@ -7137,17 +6979,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "General Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -7657,8 +7494,8 @@
           },
           {
             "title": "Date Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -7790,8 +7627,8 @@
           },
           {
             "title": "DateTime Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -7979,8 +7816,8 @@
           },
           {
             "title": "DateRange Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8210,8 +8047,8 @@
           },
           {
             "title": "DateTimeRange Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8455,8 +8292,8 @@
           },
           {
             "title": "Month Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8546,8 +8383,8 @@
           },
           {
             "title": "MonthRange, QuarterRange, YearRange Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8679,8 +8516,8 @@
           },
           {
             "title": "Year Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8770,8 +8607,8 @@
           },
           {
             "title": "Week Type Props",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8864,8 +8701,8 @@
         "slots": [
           {
             "title": "DatePicker Slots",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -8955,106 +8792,106 @@
           },
           {
             "title": "Date, Year, QuarterRange, Week Slots",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "clear",
-                "å‚æ•°": "`(props: { onClear: () => void, text: string })`",
-                "è¯´æ˜Ž": "Clear button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "clear",
+                "²ÎÊý": "`(props: { onClear: () => void, text: string })`",
+                "ËµÃ÷": "Clear button of the panel.",
+                "°æ±¾": "2.40.0"
               },
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "now",
-                "å‚æ•°": "`(props: { onNow: () => void, text: string })`",
-                "è¯´æ˜Ž": "Now button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "now",
+                "²ÎÊý": "`(props: { onNow: () => void, text: string })`",
+                "ËµÃ÷": "Now button of the panel.",
+                "°æ±¾": "2.40.0"
               }
             ]
           },
           {
             "title": "DateRange, DateTimeRange, MonthRange, YearRange Slots",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "clear",
-                "å‚æ•°": "`(props: { onClear: () => void, text: string })`",
-                "è¯´æ˜Ž": "Clear button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "clear",
+                "²ÎÊý": "`(props: { onClear: () => void, text: string })`",
+                "ËµÃ÷": "Clear button of the panel.",
+                "°æ±¾": "2.40.0"
               },
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "confirm",
-                "å‚æ•°": "`(props: { onConfirm: () => void, disabled: boolean, text: string })`",
-                "è¯´æ˜Ž": "Confirm button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "confirm",
+                "²ÎÊý": "`(props: { onConfirm: () => void, disabled: boolean, text: string })`",
+                "ËµÃ÷": "Confirm button of the panel.",
+                "°æ±¾": "2.40.0"
               }
             ]
           },
           {
             "title": "DateTime, Month, Quarter Slots",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "clear",
-                "å‚æ•°": "`(props: { onClear: () => void, text: string })`",
-                "è¯´æ˜Ž": "Clear button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "clear",
+                "²ÎÊý": "`(props: { onClear: () => void, text: string })`",
+                "ËµÃ÷": "Clear button of the panel.",
+                "°æ±¾": "2.40.0"
               },
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "confirm",
-                "å‚æ•°": "`(props: { onConfirm: () => void, disabled: boolean, text: string })`",
-                "è¯´æ˜Ž": "Confirm button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "confirm",
+                "²ÎÊý": "`(props: { onConfirm: () => void, disabled: boolean, text: string })`",
+                "ËµÃ÷": "Confirm button of the panel.",
+                "°æ±¾": "2.40.0"
               },
               {
                 "header": [
-                  "åç§°",
-                  "å‚æ•°",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "²ÎÊý",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "now",
-                "å‚æ•°": "`(props: { onNow: () => void, text: string })`",
-                "è¯´æ˜Ž": "Now button of the panel.",
-                "ç‰ˆæœ¬": "2.40.0"
+                "Ãû³Æ": "now",
+                "²ÎÊý": "`(props: { onNow: () => void, text: string })`",
+                "ËµÃ÷": "Now button of the panel.",
+                "°æ±¾": "2.40.0"
               }
             ]
           }
@@ -9062,8 +8899,8 @@
         "methods": [
           {
             "title": "DatePicker Methods",
-            "source": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -9155,28 +8992,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\date-picker\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\date-picker\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\date-picker\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "descriptions": {
       "key": "descriptions",
       "componentName": "NDescriptions",
-      "description": "Display items of content easily.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Descriptions Props",
-            "source": ".cache\\naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -9336,8 +9168,8 @@
           },
           {
             "title": "DescriptionItem Props",
-            "source": ".cache\\naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -9418,8 +9250,8 @@
         "slots": [
           {
             "title": "Descriptions Slots",
-            "source": ".cache\\naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -9445,8 +9277,8 @@
           },
           {
             "title": "DescriptionItem Slots",
-            "source": ".cache\\naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -9494,8 +9326,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\descriptions\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\descriptions\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\descriptions\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "dialog": {
@@ -9505,17 +9337,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "DialogOptions Properties",
-            "source": ".cache\\naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -10025,8 +9852,8 @@
           },
           {
             "title": "Dialog Props",
-            "source": ".cache\\naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -10357,8 +10184,8 @@
         "slots": [
           {
             "title": "Dialog Slots",
-            "source": ".cache\\naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -10447,22 +10274,17 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\dialog\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\dialog\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\dialog\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "discrete": {
       "key": "discrete",
       "componentName": "NDiscrete",
-      "description": "If you want to use useDialog, useMessage, useNotification, useLoadingBar, useModal outside setup, one can use createDiscreteApi to create corresponding API.",
+      "description": "If you want to use useDialog, useMessage, useNotification, useLoadingBar, useModal outside setup, you can use createDiscreteApi to create corresponding API.",
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -10479,8 +10301,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\discrete\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\discrete\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\discrete\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\discrete\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "divider": {
@@ -10490,17 +10312,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Divider Props",
-            "source": ".cache\\naive-ui\\src\\divider\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\divider\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -10545,8 +10362,8 @@
         "slots": [
           {
             "title": "Divider Slots",
-            "source": ".cache\\naive-ui\\src\\divider\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\divider\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -10577,8 +10394,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\divider\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\divider\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\divider\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\divider\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "drawer": {
@@ -10588,17 +10405,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Drawer Props",
-            "source": ".cache\\naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11038,8 +10850,8 @@
           },
           {
             "title": "DrawerContent Props",
-            "source": ".cache\\naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11216,8 +11028,8 @@
         "slots": [
           {
             "title": "Drawer Slots",
-            "source": ".cache\\naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11233,8 +11045,8 @@
           },
           {
             "title": "DrawerContent Slots",
-            "source": ".cache\\naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11300,8 +11112,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\drawer\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\drawer\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\drawer\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "dropdown": {
@@ -11311,17 +11123,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Dropdown Props",
-            "source": ".cache\\naive-ui\\src\\dropdown\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dropdown\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11574,28 +11381,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\dropdown\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\dropdown\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\dropdown\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\dropdown\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "dynamic-input": {
       "key": "dynamic-input",
       "componentName": "NDynamicInput",
-      "description": "This component's name has been changed so many times.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "DynamicInput Props",
-            "source": ".cache\\naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11797,8 +11599,8 @@
           },
           {
             "title": "DynamicInput Props (Input Preset)",
-            "source": ".cache\\naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11828,8 +11630,8 @@
           },
           {
             "title": "DynamicInput Props (Pair Preset)",
-            "source": ".cache\\naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11874,8 +11676,8 @@
         "slots": [
           {
             "title": "DynamicInput Slots",
-            "source": ".cache\\naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -11952,8 +11754,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\dynamic-input\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\dynamic-input\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\dynamic-input\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "dynamic-tags": {
@@ -11963,17 +11765,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "DynamicTags Props",
-            "source": ".cache\\naive-ui\\src\\dynamic-tags\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dynamic-tags\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12220,8 +12017,8 @@
         "slots": [
           {
             "title": "DynamicTags Slots",
-            "source": ".cache\\naive-ui\\src\\dynamic-tags\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\dynamic-tags\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12274,8 +12071,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\dynamic-tags\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\dynamic-tags\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\dynamic-tags\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\dynamic-tags\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "element": {
@@ -12285,17 +12082,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Element Props",
-            "source": ".cache\\naive-ui\\src\\element\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\element\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12316,8 +12108,8 @@
         "slots": [
           {
             "title": "Element Slots",
-            "source": ".cache\\naive-ui\\src\\element\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\element\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12344,8 +12136,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\element\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\element\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\element\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\element\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "ellipsis": {
@@ -12355,17 +12147,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Ellipsis, PerformantEllipsis Props",
-            "source": ".cache\\naive-ui\\src\\ellipsis\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\ellipsis\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12416,8 +12203,8 @@
         "slots": [
           {
             "title": "Ellipsis Slots",
-            "source": ".cache\\naive-ui\\src\\ellipsis\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\ellipsis\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12464,8 +12251,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\ellipsis\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\ellipsis\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\ellipsis\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\ellipsis\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "empty": {
@@ -12475,17 +12262,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Empty Props",
-            "source": ".cache\\naive-ui\\src\\empty\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\empty\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12550,8 +12332,8 @@
         "slots": [
           {
             "title": "Empty Slots",
-            "source": ".cache\\naive-ui\\src\\empty\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\empty\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12602,8 +12384,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\empty\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\empty\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\empty\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\empty\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "equation": {
@@ -12613,17 +12395,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Equation Props",
-            "source": ".cache\\naive-ui\\src\\equation\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\equation\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12686,8 +12463,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\equation\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\equation\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\equation\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\equation\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "flex": {
@@ -12697,17 +12474,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Flex Props",
-            "source": ".cache\\naive-ui\\src\\flex\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\flex\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12800,8 +12572,8 @@
         "slots": [
           {
             "title": "Flex Slots",
-            "source": ".cache\\naive-ui\\src\\flex\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\flex\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -12842,8 +12614,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\flex\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\flex\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\flex\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\flex\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "float-button": {
@@ -12853,17 +12625,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "FloatButton Props",
-            "source": ".cache\\naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13037,8 +12804,8 @@
           },
           {
             "title": "FloatButtonGroup Props",
-            "source": ".cache\\naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13131,8 +12898,8 @@
         "slots": [
           {
             "title": "FloatButton Slots",
-            "source": ".cache\\naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13183,8 +12950,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\float-button\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\float-button\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\float-button\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "float-button-group": {
@@ -13194,11 +12961,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -13218,21 +12980,16 @@
     "form": {
       "key": "form",
       "componentName": "NForm",
-      "description": "The element to collect and validate data.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Form Props",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13420,8 +13177,8 @@
           },
           {
             "title": "FormItem Props",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13735,8 +13492,8 @@
           },
           {
             "title": "FormItemGi Props",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13781,8 +13538,8 @@
         "slots": [
           {
             "title": "Form Slots",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13798,8 +13555,8 @@
           },
           {
             "title": "FormItem, FormItemGi Slots",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13831,8 +13588,8 @@
         "methods": [
           {
             "title": "Form Methods",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13874,8 +13631,8 @@
           },
           {
             "title": "FormItem, FormItemGi Methods",
-            "source": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -13955,8 +13712,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\form\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\form\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\form\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "global-style": {
@@ -13966,11 +13723,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -13983,8 +13735,8 @@
         "zhCN": []
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\global-style\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\global-style\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\global-style\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\global-style\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "gradient-text": {
@@ -13994,17 +13746,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "GradientText Props",
-            "source": ".cache\\naive-ui\\src\\gradient-text\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\gradient-text\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14049,8 +13796,8 @@
         "slots": [
           {
             "title": "GradientText Slots",
-            "source": ".cache\\naive-ui\\src\\gradient-text\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\gradient-text\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14081,28 +13828,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\gradient-text\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\gradient-text\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\gradient-text\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\gradient-text\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "grid": {
       "key": "grid",
       "componentName": "NGrid",
-      "description": "Based on CSS Grid. Responsive. Keep away from IE.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Grid Props",
-            "source": ".cache\\naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14220,8 +13962,8 @@
           },
           {
             "title": "GridItem Props",
-            "source": ".cache\\naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14266,8 +14008,8 @@
         "slots": [
           {
             "title": "Grid Slots",
-            "source": ".cache\\naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14283,8 +14025,8 @@
           },
           {
             "title": "GridItem Slots",
-            "source": ".cache\\naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14324,8 +14066,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\grid\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\grid\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\grid\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "heatmap": {
@@ -14335,17 +14077,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Heatmap Props",
-            "source": ".cache\\naive-ui\\src\\heatmap\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\heatmap\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14594,8 +14331,8 @@
         "slots": [
           {
             "title": "Heatmap Slots",
-            "source": ".cache\\naive-ui\\src\\heatmap\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\heatmap\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14688,8 +14425,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\heatmap\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\heatmap\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\heatmap\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\heatmap\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "highlight": {
@@ -14699,17 +14436,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Highlight Props",
-            "source": ".cache\\naive-ui\\src\\highlight\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\highlight\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14832,8 +14564,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\highlight\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\highlight\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\highlight\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\highlight\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "icon": {
@@ -14843,17 +14575,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Icon Props",
-            "source": ".cache\\naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14915,8 +14642,8 @@
           },
           {
             "title": "IconWrapper Props",
-            "source": ".cache\\naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -14981,8 +14708,8 @@
         "slots": [
           {
             "title": "Icon Slots",
-            "source": ".cache\\naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15015,8 +14742,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\icon\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\icon\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\icon\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "icon-wrapper": {
@@ -15026,11 +14753,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -15054,17 +14776,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Image Props",
-            "source": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15322,8 +15039,8 @@
           },
           {
             "title": "ImageGroup Props",
-            "source": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15497,8 +15214,8 @@
           },
           {
             "title": "ImagePreview Props",
-            "source": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15633,8 +15350,8 @@
         "slots": [
           {
             "title": "Image Slots",
-            "source": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15664,8 +15381,8 @@
           },
           {
             "title": "ImageGroup Slots",
-            "source": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15683,8 +15400,8 @@
         "methods": [
           {
             "title": "Image Methods",
-            "source": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15738,8 +15455,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\image\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\image\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\image\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "infinite-scroll": {
@@ -15749,17 +15466,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Infinite Scroll Props",
-            "source": ".cache\\naive-ui\\src\\infinite-scroll\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\infinite-scroll\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15822,8 +15534,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\infinite-scroll\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\infinite-scroll\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\infinite-scroll\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\infinite-scroll\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "input": {
@@ -15833,17 +15545,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Input Props",
-            "source": ".cache\\naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -15954,7 +15661,7 @@
                 "Name": "input-props",
                 "Type": "`InputHTMLAttributes | TextareaHTMLAttributes`",
                 "Default": "`undefined`",
-                "Description": "The dom props of the input element inside the component. This is disabled if the `pair` property is true. For avaiable attributes, [see here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input). Warningï¼šIt won't override internal props with the same name (except `type`).",
+                "Description": "The dom props of the input element inside the component. This is disabled if the `pair` property is true. For avaiable attributes, [see here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input). Warning£ºIt won't override internal props with the same name (except `type`).",
                 "Version": ""
               },
               {
@@ -16286,8 +15993,8 @@
         "slots": [
           {
             "title": "Input Slots",
-            "source": ".cache\\naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -16377,8 +16084,8 @@
           },
           {
             "title": "InputGroup Slots",
-            "source": ".cache\\naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -16394,8 +16101,8 @@
           },
           {
             "title": "InputGroupLabel Slots",
-            "source": ".cache\\naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -16413,8 +16120,8 @@
         "methods": [
           {
             "title": "Input Methods",
-            "source": ".cache\\naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -16530,8 +16237,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\input\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\input\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\input\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "input-number": {
@@ -16541,17 +16248,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "InputNumber Props",
-            "source": ".cache\\naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -16662,7 +16364,7 @@
                 "Name": "input-props",
                 "Type": "`InputHTMLAttributes`",
                 "Default": "`undefined`",
-                "Description": "The dom props of the input element inside the component. For avaiable attributes, [see here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input). Warningï¼šIt won't override internal props with the same name (except `type`).",
+                "Description": "The dom props of the input element inside the component. For avaiable attributes, [see here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input). Warning£ºIt won't override internal props with the same name (except `type`).",
                 "Version": "2.37.0"
               },
               {
@@ -16952,8 +16654,8 @@
         "slots": [
           {
             "title": "InputNumber Slots",
-            "source": ".cache\\naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17009,8 +16711,8 @@
         "methods": [
           {
             "title": "InputNumber Methods",
-            "source": ".cache\\naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17082,8 +16784,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\input-number\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\input-number\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\input-number\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "input-otp": {
@@ -17093,17 +16795,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "InputOTP Props",
-            "source": ".cache\\naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17368,8 +17065,8 @@
         "slots": [
           {
             "title": "InputOTP Slots",
-            "source": ".cache\\naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17391,20 +17088,20 @@
         "methods": [
           {
             "title": "InputOTP Methods",
-            "source": ".cache\\naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
-                  "åç§°",
-                  "ç±»åž‹",
-                  "è¯´æ˜Ž",
-                  "ç‰ˆæœ¬"
+                  "Ãû³Æ",
+                  "ÀàÐÍ",
+                  "ËµÃ÷",
+                  "°æ±¾"
                 ],
-                "åç§°": "focusOnChar",
-                "ç±»åž‹": "`(charIndex: number) => void`",
-                "è¯´æ˜Ž": "Focus on a certain input box.",
-                "ç‰ˆæœ¬": "2.43.0"
+                "Ãû³Æ": "focusOnChar",
+                "ÀàÐÍ": "`(charIndex: number) => void`",
+                "ËµÃ÷": "Focus on a certain input box.",
+                "°æ±¾": "2.43.0"
               }
             ]
           }
@@ -17435,28 +17132,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\input-otp\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\input-otp\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\input-otp\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "layout": {
       "key": "layout",
       "componentName": "NLayout",
-      "description": "Layout is for layout.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Layout, Layout Content Props",
-            "source": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17588,8 +17280,8 @@
           },
           {
             "title": "Layout Footer Props",
-            "source": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17631,8 +17323,8 @@
           },
           {
             "title": "Layout Header Props",
-            "source": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17674,8 +17366,8 @@
           },
           {
             "title": "Layout Sider Props",
-            "source": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -17992,8 +17684,8 @@
         "slots": [
           {
             "title": "Layout, Layout Content, Layout Sider, Layout Header, Layout Footer Slots",
-            "source": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18011,8 +17703,8 @@
         "methods": [
           {
             "title": "Layout, Layout Content, Layout Sider Methods",
-            "source": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18059,28 +17751,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\layout\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\layout\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\layout\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "legacy-grid": {
       "key": "legacy-grid",
       "componentName": "NLegacyGrid",
-      "description": "<n-alert title=\"Caveat\" type=\"warning\" style=\"margin-bottom: 16px\" :bordered=\"false\">",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Row Props",
-            "source": ".cache\\naive-ui\\src\\legacy-grid\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\legacy-grid\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18098,8 +17785,8 @@
           },
           {
             "title": "Col Props",
-            "source": ".cache\\naive-ui\\src\\legacy-grid\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\legacy-grid\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18174,28 +17861,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\legacy-grid\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\legacy-grid\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\legacy-grid\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\legacy-grid\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "legacy-transfer": {
       "key": "legacy-transfer",
       "componentName": "NLegacyTransfer",
-      "description": "<n-alert title=\"Warning\" type=\"warning\" :bordered=\"false\">",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Transfer Props",
-            "source": ".cache\\naive-ui\\src\\legacy-transfer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\legacy-transfer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18376,8 +18058,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\legacy-transfer\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\legacy-transfer\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\legacy-transfer\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\legacy-transfer\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "list": {
@@ -18387,17 +18069,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "List Props",
-            "source": ".cache\\naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18462,8 +18139,8 @@
         "slots": [
           {
             "title": "List Slots",
-            "source": ".cache\\naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18499,8 +18176,8 @@
           },
           {
             "title": "ListItem Slots",
-            "source": ".cache\\naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18552,8 +18229,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\list\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\list\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\list\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "loading-bar": {
@@ -18563,17 +18240,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "LoadingBarProvider Props",
-            "source": ".cache\\naive-ui\\src\\loading-bar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\loading-bar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18639,8 +18311,8 @@
         "methods": [
           {
             "title": "loadingBar Injection Methods",
-            "source": ".cache\\naive-ui\\src\\loading-bar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\loading-bar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18688,8 +18360,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\loading-bar\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\loading-bar\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\loading-bar\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\loading-bar\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "locales": {
@@ -18700,17 +18372,6 @@
         "index.spec.tsx",
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [
-          "dateLocale",
-          "locale"
-        ],
-        "slots": [],
-        "exposenames": [
-          "default",
-          "onMounted"
-        ]
-      },
       "api": {
         "props": [],
         "events": [],
@@ -18730,21 +18391,16 @@
     "log": {
       "key": "log",
       "componentName": "NLog",
-      "description": "If you have some logs to show, use log.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Log Props",
-            "source": ".cache\\naive-ui\\src\\log\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\log\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18768,8 +18424,8 @@
         "methods": [
           {
             "title": "Log Methods",
-            "source": ".cache\\naive-ui\\src\\log\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\log\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18805,8 +18461,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\log\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\log\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\log\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\log\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "marquee": {
@@ -18816,17 +18472,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Marquee Props",
-            "source": ".cache\\naive-ui\\src\\marquee\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\marquee\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18863,8 +18514,8 @@
         "slots": [
           {
             "title": "Marquee Slots",
-            "source": ".cache\\naive-ui\\src\\marquee\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\marquee\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -18897,8 +18548,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\marquee\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\marquee\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\marquee\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\marquee\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "mention": {
@@ -18908,17 +18559,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Mention Props",
-            "source": ".cache\\naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -19260,8 +18906,8 @@
           },
           {
             "title": "MentionOption Properties",
-            "source": ".cache\\naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -19330,8 +18976,8 @@
         "slots": [
           {
             "title": "Mention Slots",
-            "source": ".cache\\naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -19349,8 +18995,8 @@
         "methods": [
           {
             "title": "Mention Methods",
-            "source": ".cache\\naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -19402,28 +19048,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\mention\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\mention\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\mention\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "menu": {
       "key": "menu",
       "componentName": "NMenu",
-      "description": "No Food.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Menu Props",
-            "source": ".cache\\naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -19576,7 +19217,7 @@
                 "Name": "dropdown-props",
                 "Type": "`DropdownProps`",
                 "Default": "`undefined`",
-                "Description": "The dropdown's props when menu is collapsed or horizontal modeï¼Œplease see [Dropdown Props](dropdown#Dropdown-Props)",
+                "Description": "The dropdown's props when menu is collapsed or horizontal mode£¬please see [Dropdown Props](dropdown#Dropdown-Props)",
                 "Version": ""
               },
               {
@@ -19849,8 +19490,8 @@
           },
           {
             "title": "MenuOption Properties",
-            "source": ".cache\\naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -19940,8 +19581,8 @@
           },
           {
             "title": "MenuGroupOption Properties",
-            "source": ".cache\\naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20007,8 +19648,8 @@
           },
           {
             "title": "MenuDividerOption Properties",
-            "source": ".cache\\naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20066,8 +19707,8 @@
         "methods": [
           {
             "title": "Menu Methods",
-            "source": ".cache\\naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20133,8 +19774,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\menu\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\menu\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\menu\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "message": {
@@ -20144,17 +19785,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "MessageProvider Props",
-            "source": ".cache\\naive-ui\\src\\message\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\message\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20306,8 +19942,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\message\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\message\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\message\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\message\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "modal": {
@@ -20317,17 +19953,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "ModalProvider Props",
-            "source": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20347,8 +19978,8 @@
           },
           {
             "title": "Modal Props",
-            "source": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20606,8 +20237,8 @@
           },
           {
             "title": "ModalProvider Props",
-            "source": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20627,8 +20258,8 @@
           },
           {
             "title": "Modal with Preset Card Props",
-            "source": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20644,8 +20275,8 @@
           },
           {
             "title": "Modal with Preset Dialog Props",
-            "source": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20664,8 +20295,8 @@
         "slots": [
           {
             "title": "Modal without Preset Slots",
-            "source": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20678,6 +20309,20 @@
                 "Description": "The content of the modal."
               }
             ]
+          },
+          {
+            "title": "Modal with Preset Card Slots",
+            "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
+            "rows": [],
+            "note": "See [Card slots](card#Card-Slots)"
+          },
+          {
+            "title": "Modal with Preset Dialog Slots",
+            "lang": "enUS",
+            "source": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
+            "rows": [],
+            "note": "See [Dialog slots](dialog#Dialog-Slots)"
           }
         ],
         "methods": [],
@@ -20729,8 +20374,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\modal\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\modal\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\modal\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "notification": {
@@ -20740,17 +20385,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "NotificationProvider Props",
-            "source": ".cache\\naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -20840,8 +20480,8 @@
           },
           {
             "title": "NotificationOption Properties",
-            "source": ".cache\\naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21033,8 +20673,8 @@
         "methods": [
           {
             "title": "notification Injection Methods",
-            "source": ".cache\\naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21126,8 +20766,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\notification\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\notification\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\notification\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "number-animation": {
@@ -21137,17 +20777,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "NumberAnimation Props",
-            "source": ".cache\\naive-ui\\src\\number-animation\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\number-animation\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21269,8 +20904,8 @@
         "methods": [
           {
             "title": "NumberAnimation Methods",
-            "source": ".cache\\naive-ui\\src\\number-animation\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\number-animation\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21306,8 +20941,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\number-animation\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\number-animation\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\number-animation\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\number-animation\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "page-header": {
@@ -21317,17 +20952,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "PageHeader Props",
-            "source": ".cache\\naive-ui\\src\\page-header\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\page-header\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21384,8 +21014,8 @@
         "slots": [
           {
             "title": "PageHeader Slots",
-            "source": ".cache\\naive-ui\\src\\page-header\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\page-header\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21499,28 +21129,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\page-header\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\page-header\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\page-header\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\page-header\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "pagination": {
       "key": "pagination",
       "componentName": "NPagination",
-      "description": "Long data's friend.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Pagination Props",
-            "source": ".cache\\naive-ui\\src\\pagination\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\pagination\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -21893,8 +21518,8 @@
         "slots": [
           {
             "title": "Pagination Slots",
-            "source": ".cache\\naive-ui\\src\\pagination\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\pagination\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22005,8 +21630,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\pagination\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\pagination\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\pagination\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\pagination\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "popconfirm": {
@@ -22016,17 +21641,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Popconfirm Props",
-            "source": ".cache\\naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22133,8 +21753,8 @@
         "slots": [
           {
             "title": "Popconfirm Slots",
-            "source": ".cache\\naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22169,7 +21789,15 @@
             ]
           }
         ],
-        "methods": [],
+        "methods": [
+          {
+            "title": "Popconfirm Methods",
+            "lang": "enUS",
+            "source": "naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
+            "rows": [],
+            "note": "See [popover](popover#Popover-Methods)"
+          }
+        ],
         "subComponents": []
       },
       "demos": {
@@ -22191,8 +21819,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\popconfirm\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\popconfirm\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\popconfirm\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "popover": {
@@ -22202,17 +21830,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Popover Props",
-            "source": ".cache\\naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22669,8 +22292,8 @@
         "slots": [
           {
             "title": "Popover Slots",
-            "source": ".cache\\naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22726,8 +22349,8 @@
         "methods": [
           {
             "title": "Popover Methods",
-            "source": ".cache\\naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22791,28 +22414,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\popover\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\popover\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\popover\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "popselect": {
       "key": "popselect",
       "componentName": "NPopselect",
-      "description": "If you want select some options but don't want a picker, one can use popselect instead.",
+      "description": "If you want select some options but don't want a picker, you can use popselect instead.",
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Popselect Props",
-            "source": ".cache\\naive-ui\\src\\popselect\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popselect\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -22961,8 +22579,8 @@
         "slots": [
           {
             "title": "Popselect Slots",
-            "source": ".cache\\naive-ui\\src\\popselect\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\popselect\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23023,8 +22641,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\popselect\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\popselect\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\popselect\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\popselect\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "progress": {
@@ -23034,17 +22652,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Progress Props",
-            "source": ".cache\\naive-ui\\src\\progress\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\progress\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23319,8 +22932,8 @@
         "slots": [
           {
             "title": "Progress Slots",
-            "source": ".cache\\naive-ui\\src\\progress\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\progress\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23367,8 +22980,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\progress\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\progress\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\progress\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\progress\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "qr-code": {
@@ -23378,17 +22991,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "QR Code Props",
-            "source": ".cache\\naive-ui\\src\\qr-code\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\qr-code\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23573,28 +23181,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\qr-code\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\qr-code\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\qr-code\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\qr-code\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "radio": {
       "key": "radio",
       "componentName": "NRadio",
-      "description": "When I was young, I loved listening to the radio, such as FM 106.8 or FM 92.1.",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Radio Props, RadioButton Props",
-            "source": ".cache\\naive-ui\\src\\radio\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\radio\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23698,8 +23301,8 @@
           },
           {
             "title": "RadioGroup Props",
-            "source": ".cache\\naive-ui\\src\\radio\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\radio\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23800,8 +23403,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\radio\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\radio\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\radio\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\radio\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "rate": {
@@ -23811,17 +23414,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Rate Props",
-            "source": ".cache\\naive-ui\\src\\rate\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\rate\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -23970,8 +23568,8 @@
         "slots": [
           {
             "title": "Rate Slots",
-            "source": ".cache\\naive-ui\\src\\rate\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\rate\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -24010,8 +23608,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\rate\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\rate\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\rate\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\rate\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "result": {
@@ -24021,17 +23619,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Result Props",
-            "source": ".cache\\naive-ui\\src\\result\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\result\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -24088,8 +23681,8 @@
         "slots": [
           {
             "title": "Result Slots",
-            "source": ".cache\\naive-ui\\src\\result\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\result\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -24159,8 +23752,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\result\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\result\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\result\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\result\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "scrollbar": {
@@ -24170,17 +23763,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Scrollbar Props",
-            "source": ".cache\\naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -24301,8 +23889,8 @@
         "slots": [
           {
             "title": "Scrollbar Slots",
-            "source": ".cache\\naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -24320,8 +23908,8 @@
         "methods": [
           {
             "title": "Scrollbar Methods",
-            "source": ".cache\\naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -24368,8 +23956,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\scrollbar\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\scrollbar\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\scrollbar\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "select": {
@@ -24379,17 +23967,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Select Props",
-            "source": ".cache\\naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25084,8 +24667,8 @@
         "slots": [
           {
             "title": "Select Slots",
-            "source": ".cache\\naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25141,8 +24724,8 @@
         "methods": [
           {
             "title": "Select Methods",
-            "source": ".cache\\naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25263,8 +24846,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\select\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\select\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\select\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "skeleton": {
@@ -25274,17 +24857,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Skeleton Props",
-            "source": ".cache\\naive-ui\\src\\skeleton\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\skeleton\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25415,8 +24993,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\skeleton\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\skeleton\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\skeleton\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\skeleton\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "slider": {
@@ -25426,17 +25004,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Slider Props",
-            "source": ".cache\\naive-ui\\src\\slider\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\slider\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25697,8 +25270,8 @@
         "slots": [
           {
             "title": "Slider Slots",
-            "source": ".cache\\naive-ui\\src\\slider\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\slider\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25752,8 +25325,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\slider\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\slider\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\slider\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\slider\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "space": {
@@ -25763,17 +25336,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Space Props",
-            "source": ".cache\\naive-ui\\src\\space\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\space\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25922,8 +25490,8 @@
         "slots": [
           {
             "title": "Space Slots",
-            "source": ".cache\\naive-ui\\src\\space\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\space\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -25964,8 +25532,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\space\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\space\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\space\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\space\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "spin": {
@@ -25975,17 +25543,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Spin Props",
-            "source": ".cache\\naive-ui\\src\\spin\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\spin\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26050,8 +25613,8 @@
         "slots": [
           {
             "title": "Spin Slots",
-            "source": ".cache\\naive-ui\\src\\spin\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\spin\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26107,8 +25670,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\spin\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\spin\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\spin\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\spin\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "split": {
@@ -26118,17 +25681,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Split Props",
-            "source": ".cache\\naive-ui\\src\\split\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\split\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26361,8 +25919,8 @@
         "slots": [
           {
             "title": "Split Slots",
-            "source": ".cache\\naive-ui\\src\\split\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\split\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26426,8 +25984,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\split\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\split\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\split\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\split\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "statistic": {
@@ -26437,17 +25995,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Statistic Props",
-            "source": ".cache\\naive-ui\\src\\statistic\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\statistic\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26498,8 +26051,8 @@
         "slots": [
           {
             "title": "Statistic Slots",
-            "source": ".cache\\naive-ui\\src\\statistic\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\statistic\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26557,28 +26110,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\statistic\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\statistic\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\statistic\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\statistic\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "steps": {
       "key": "steps",
       "componentName": "NSteps",
-      "description": "1, 2, 3... done!",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Steps Props",
-            "source": ".cache\\naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26668,8 +26216,8 @@
           },
           {
             "title": "Step Props",
-            "source": ".cache\\naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26734,8 +26282,8 @@
         "slots": [
           {
             "title": "Steps Slots",
-            "source": ".cache\\naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26771,8 +26319,8 @@
           },
           {
             "title": "Step Slots",
-            "source": ".cache\\naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -26839,8 +26387,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\steps\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\steps\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\steps\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "switch": {
@@ -26850,17 +26398,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Switch Props",
-            "source": ".cache\\naive-ui\\src\\switch\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\switch\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27037,8 +26580,8 @@
         "slots": [
           {
             "title": "Switch Slots",
-            "source": ".cache\\naive-ui\\src\\switch\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\switch\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27131,28 +26674,23 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\switch\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\switch\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\switch\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\switch\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "table": {
       "key": "table",
       "componentName": "NTable",
-      "description": "If you only want to render some basic tables, use it. If you want to render structured data, see [Data Table](data-table).",
+      "description": null,
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Table Props",
-            "source": ".cache\\naive-ui\\src\\table\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\table\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27254,8 +26792,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\table\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\table\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\table\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\table\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "tabs": {
@@ -27265,17 +26803,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Tabs Props",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27617,8 +27150,8 @@
           },
           {
             "title": "TabPane Props",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27708,8 +27241,8 @@
           },
           {
             "title": "Tab Props",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27754,8 +27287,8 @@
         "slots": [
           {
             "title": "Tabs Slots",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27791,8 +27324,8 @@
           },
           {
             "title": "TabPane Slots",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27818,8 +27351,8 @@
           },
           {
             "title": "Tab Slots",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27837,8 +27370,8 @@
         "methods": [
           {
             "title": "Tabs Methods",
-            "source": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -27901,8 +27434,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\tabs\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\tabs\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\tabs\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "tag": {
@@ -27912,17 +27445,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Tag Props",
-            "source": ".cache\\naive-ui\\src\\tag\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tag\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -28113,8 +27641,8 @@
         "slots": [
           {
             "title": "Tag Slots",
-            "source": ".cache\\naive-ui\\src\\tag\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tag\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -28186,8 +27714,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\tag\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\tag\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\tag\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\tag\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "theme-editor": {
@@ -28197,11 +27725,6 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -28229,11 +27752,6 @@
         "light.ts",
         "utils.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [],
         "events": [],
@@ -28257,17 +27775,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Thing Props",
-            "source": ".cache\\naive-ui\\src\\thing\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\thing\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -28332,8 +27845,8 @@
         "slots": [
           {
             "title": "Thing Slots",
-            "source": ".cache\\naive-ui\\src\\thing\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\thing\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -28423,8 +27936,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\thing\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\thing\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\thing\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\thing\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "time": {
@@ -28434,17 +27947,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Time Props",
-            "source": ".cache\\naive-ui\\src\\time\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\time\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -28558,8 +28066,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\time\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\time\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\time\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\time\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "time-picker": {
@@ -28569,17 +28077,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "TimePicker Props",
-            "source": ".cache\\naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29022,8 +28525,8 @@
         "slots": [
           {
             "title": "TimePicker Slots",
-            "source": ".cache\\naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29041,8 +28544,8 @@
         "methods": [
           {
             "title": "TimePicker Methods",
-            "source": ".cache\\naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29105,8 +28608,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\time-picker\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\time-picker\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\time-picker\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "timeline": {
@@ -29116,17 +28619,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Timeline Props",
-            "source": ".cache\\naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29180,8 +28678,8 @@
           },
           {
             "title": "TimelineItem Props",
-            "source": ".cache\\naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29274,8 +28772,8 @@
         "slots": [
           {
             "title": "Timeline Slots",
-            "source": ".cache\\naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29291,8 +28789,8 @@
           },
           {
             "title": "TimelineItem Slots",
-            "source": ".cache\\naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29358,8 +28856,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\timeline\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\timeline\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\timeline\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "tooltip": {
@@ -29369,15 +28867,26 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
-        "props": [],
+        "props": [
+          {
+            "title": "Tooltip Props",
+            "lang": "enUS",
+            "source": "naive-ui\\src\\tooltip\\demos\\enUS\\index.demo-entry.md",
+            "rows": [],
+            "note": "See [Popover Props](popover#Popover-Props)"
+          }
+        ],
         "events": [],
-        "slots": [],
+        "slots": [
+          {
+            "title": "Tooltip Slots",
+            "lang": "enUS",
+            "source": "naive-ui\\src\\tooltip\\demos\\enUS\\index.demo-entry.md",
+            "rows": [],
+            "note": "See [Popover Slots](popover#Popover-Slots)"
+          }
+        ],
         "methods": [],
         "subComponents": []
       },
@@ -29401,8 +28910,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\tooltip\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\tooltip\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\tooltip\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\tooltip\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "transfer": {
@@ -29412,17 +28921,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Transfer Props",
-            "source": ".cache\\naive-ui\\src\\transfer\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\transfer\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -29731,8 +29235,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\transfer\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\transfer\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\transfer\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\transfer\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "tree": {
@@ -29742,17 +29246,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Tree Props",
-            "source": ".cache\\naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -30570,8 +30069,8 @@
           },
           {
             "title": "TreeOption Properties",
-            "source": ".cache\\naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -30660,8 +30159,8 @@
         "slots": [
           {
             "title": "Tree Slots",
-            "source": ".cache\\naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -30681,8 +30180,8 @@
         "methods": [
           {
             "title": "Methods",
-            "source": ".cache\\naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -30724,8 +30223,8 @@
           },
           {
             "title": "Tree Methods",
-            "source": ".cache\\naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -30815,8 +30314,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\tree\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\tree\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\tree\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "tree-select": {
@@ -30826,17 +30325,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "TreeSelect Props",
-            "source": ".cache\\naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31556,8 +31050,8 @@
           },
           {
             "title": "TreeSelectOption Properties",
-            "source": ".cache\\naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31626,8 +31120,8 @@
         "slots": [
           {
             "title": "TreeSelect Slots",
-            "source": ".cache\\naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31683,8 +31177,8 @@
         "methods": [
           {
             "title": "TreeSelect Methods",
-            "source": ".cache\\naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31798,8 +31292,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\tree-select\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\tree-select\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\tree-select\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "typography": {
@@ -31809,17 +31303,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Text Props",
-            "source": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31921,8 +31410,8 @@
           },
           {
             "title": "P Props",
-            "source": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31940,8 +31429,8 @@
           },
           {
             "title": "H1, H2, H3, H4, H5, H6 Props",
-            "source": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -31983,8 +31472,8 @@
           },
           {
             "title": "Ul, Ol Props",
-            "source": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32002,8 +31491,8 @@
           },
           {
             "title": "Blockquote Props",
-            "source": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32024,8 +31513,8 @@
         "slots": [
           {
             "title": "All Typography Components Slots",
-            "source": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32058,8 +31547,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\typography\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\typography\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\typography\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "upload": {
@@ -32069,17 +31558,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Upload Props",
-            "source": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32743,8 +32227,8 @@
           },
           {
             "title": "UploadTrigger Props",
-            "source": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32765,8 +32249,8 @@
         "slots": [
           {
             "title": "Upload Slots",
-            "source": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32782,8 +32266,8 @@
           },
           {
             "title": "UploadDragger Slots",
-            "source": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32799,8 +32283,8 @@
           },
           {
             "title": "UploadTrigger Slots",
-            "source": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32818,8 +32302,8 @@
         "methods": [
           {
             "title": "Upload Methods",
-            "source": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -32897,8 +32381,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\upload\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\upload\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\upload\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "virtual-list": {
@@ -32908,17 +32392,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Virtual List Props",
-            "source": ".cache\\naive-ui\\src\\virtual-list\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\virtual-list\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -33152,8 +32631,8 @@
         "methods": [
           {
             "title": "Virtual List Methods",
-            "source": ".cache\\naive-ui\\src\\virtual-list\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\virtual-list\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -33187,8 +32666,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\virtual-list\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\virtual-list\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\virtual-list\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\virtual-list\\demos\\zhCN\\index.demo-entry.md"
       }
     },
     "watermark": {
@@ -33198,17 +32677,12 @@
       "sourceFiles": [
         "index.ts"
       ],
-      "sourceScan": {
-        "propNames": [],
-        "slots": [],
-        "exposenames": []
-      },
       "api": {
         "props": [
           {
             "title": "Watermark Props",
-            "source": ".cache\\naive-ui\\src\\watermark\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\watermark\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -33581,8 +33055,8 @@
         "slots": [
           {
             "title": "Watermark Slots",
-            "source": ".cache\\naive-ui\\src\\watermark\\demos\\enUS\\index.demo-entry.md",
             "lang": "enUS",
+            "source": "naive-ui\\src\\watermark\\demos\\enUS\\index.demo-entry.md",
             "rows": [
               {
                 "header": [
@@ -33619,8 +33093,8 @@
         ]
       },
       "docs": {
-        "enUS": ".cache\\naive-ui\\src\\watermark\\demos\\enUS\\index.demo-entry.md",
-        "zhCN": ".cache\\naive-ui\\src\\watermark\\demos\\zhCN\\index.demo-entry.md"
+        "enUS": "naive-ui\\src\\watermark\\demos\\enUS\\index.demo-entry.md",
+        "zhCN": "naive-ui\\src\\watermark\\demos\\zhCN\\index.demo-entry.md"
       }
     }
   }

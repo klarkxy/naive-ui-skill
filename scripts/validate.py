@@ -24,8 +24,9 @@ import re
 import sys
 from pathlib import Path
 
-SKILL_ROOT = Path(__file__).resolve().parent.parent
-MANIFEST = SKILL_ROOT / "assets" / "data" / "official-manifest.generated.json"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+SKILL_ROOT = PROJECT_ROOT / "naive-ui"  # the shipped skill payload
+MANIFEST = PROJECT_ROOT / "assets" / "data" / "official-manifest.generated.json"
 EXCLUDED = {
     "_internal", "_mixins", "_styles", "_utils",
     "composables", "config-consumer", "locales", "themes", "theme-editor",

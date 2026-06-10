@@ -104,15 +104,18 @@ def split_frontmatter(text: str) -> tuple[str, str]:
 
 
 def is_empty_section_body(body: str) -> bool:
-    """True if the section body is just the placeholder, possibly with
-    surrounding whitespace and a leading blockquote (e.g. the boilerplate in
-    `## Sub Components`)."""
-    # Drop any blockquote lines (e.g. the explanatory > note in Sub Components)
+    """True if the section body has no real content. Two cases qualify:
+
+    1.  Body is just `_（无数据）_` (legacy generator placeholder) — kept for
+        backwards-compat with files generated before the empty-body change.
+    2.  Body is whitespace-only after stripping blockquote lines — the new
+        `section_block()` helper returns an empty string when both rows and
+        notes are absent, so the template leaves a heading followed by
+        nothing but blanks.
+    """
     stripped = re.sub(r"^>\s.*$", "", body, flags=re.M)
-    # Whitespace-only normalisation is enough: the placeholder is a single
-    # non-whitespace token, and any leftover leading/trailing blanks should
-    # not block the comparison.
-    return stripped.strip() == "_（无数据）_"
+    cleaned = stripped.strip()
+    return cleaned == "" or cleaned == "_（无数据）_"
 
 
 def clean_api_md(text: str) -> tuple[str, list[str]]:

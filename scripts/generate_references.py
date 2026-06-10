@@ -22,16 +22,17 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-SKILL_ROOT = Path(__file__).resolve().parent.parent
-MANIFEST = SKILL_ROOT / "assets" / "data" / "official-manifest.generated.json"
-TEMPLATES = SKILL_ROOT / "assets" / "templates"
-DEFAULT_OUT = SKILL_ROOT / "references" / "components"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+SKILL_DIR = PROJECT_ROOT / "naive-ui"
+ASSETS_DIR = PROJECT_ROOT / "assets"
+MANIFEST = ASSETS_DIR / "data" / "official-manifest.generated.json"
+TEMPLATES = ASSETS_DIR / "templates"
+DEFAULT_OUT = SKILL_DIR / "references" / "components"
 
 EXCLUDED = {
     "_internal", "_mixins", "_styles", "_utils",
     "composables", "config-consumer", "locales", "themes", "theme-editor",
     "avatar-group", "button-group", "float-button-group", "icon-wrapper",
-    "legacy-transfer",
 }
 
 
@@ -69,6 +70,26 @@ def rows_to_table(rows: list[dict]) -> str:
             out.append("| " + " | ".join(esc_md(r.get(c, "")) for c in cols) + " |")
         out.append("")
     return "\n".join(out).rstrip()
+
+
+def section_block(blocks: list[dict]) -> str:
+    """Render an API section: table of rows, with any per-block `note` appended.
+
+    If rows are empty but a note exists (e.g. upstream says
+    `See [Popover Props](popover#Popover-Props)`), emit the note verbatim
+    instead of the `_（无数据）_` placeholder — mirroring upstream.
+    """
+    rows = [row for b in blocks for row in b.get("rows", [])]
+    notes = [b["note"] for b in blocks if b.get("note")]
+    if not rows and not notes:
+        return ""
+    if not rows:
+        # Notes only — emit each note on its own line as a paragraph.
+        return "\n\n".join(notes)
+    table = rows_to_table(rows)
+    if notes:
+        return table + "\n\n" + "\n\n".join(notes)
+    return table
 
 
 def describe_short(c: dict) -> str:
@@ -204,21 +225,11 @@ def emit_component(c: dict, meta: dict, out_root: Path) -> list[tuple[Path, str]
     api_vars = {
         **base,
         "shortZh": f"{title} API reference. {short}",
-        "propsTable": rows_to_table(
-            [row for block in c["api"].get("props", []) for row in block["rows"]]
-        ),
-        "eventsTable": rows_to_table(
-            [row for block in c["api"].get("events", []) for row in block["rows"]]
-        ) or "_（no events table — see `Source Files` for the emitted event names）_",
-        "slotsTable": rows_to_table(
-            [row for block in c["api"].get("slots", []) for row in block["rows"]]
-        ),
-        "methodsTable": rows_to_table(
-            [row for block in c["api"].get("methods", []) for row in block["rows"]]
-        ) or "_（no methods table）_",
-        "subComponentsTable": rows_to_table(
-            [row for block in c["api"].get("subComponents", []) for row in block["rows"]]
-        ) or "_（no Sub Components section）_",
+        "propsTable": section_block(c["api"].get("props", [])),
+        "eventsTable": section_block(c["api"].get("events", [])),
+        "slotsTable": section_block(c["api"].get("slots", [])),
+        "methodsTable": section_block(c["api"].get("methods", [])),
+        "subComponentsTable": section_block(c["api"].get("subComponents", [])),
     }
 
     examples_vars = {
@@ -295,10 +306,9 @@ def main() -> None:
     # can re-run `scripts/cleanup_generated.py` manually.
     try:
         import runpy
-        repo_root = SKILL_ROOT.parent  # naive-ui/ -> naive-ui-skill/
-        cleanup_path = repo_root / "scripts" / "cleanup_generated.py"
+        cleanup_path = PROJECT_ROOT / "scripts" / "cleanup_generated.py"
         if cleanup_path.exists():
-            print(f"Post-step: {cleanup_path.relative_to(repo_root)}")
+            print(f"Post-step: {cleanup_path.relative_to(PROJECT_ROOT)}")
             runpy.run_path(str(cleanup_path), run_name="__main__")
     except SystemExit as e:  # the cleanup script uses sys.exit() to abort
         if e.code:

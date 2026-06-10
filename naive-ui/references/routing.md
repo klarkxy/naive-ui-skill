@@ -38,35 +38,26 @@ The official Naive UI catalogue is generated from `assets/data/official-manifest
 
 ## Common sub-components (alias, not separate skills)
 
-These tags are documented under their parent component's `api.md`:
+The following sub-component tags are mentioned in their parent component's
+official `api.md`. For everything else, treat the sub-component tag as a
+plain Vue component and consult its parent's official documentation.
 
 | Sub-component tag | Parent skill |
 | --- | --- |
-| `n-form-item`, `n-form-item-gi` | `references/components/n-form/api.md` |
-| `n-form-item-row` | (deprecated; use `n-form-item-gi`) |
 | `n-tab`, `n-tab-pane` | `references/components/n-tabs/api.md` |
-| `n-collapse-item` | `references/components/n-collapse/api.md` |
-| `n-timeline-item` | `references/components/n-timeline/api.md` |
 | `n-step` | `references/components/n-steps/api.md` |
-| `n-breadcrumb-item` | `references/components/n-breadcrumb/api.md` |
-| `n-list-item`, `n-list-item-header`, `n-list-item-footer` | `references/components/n-list/api.md` |
-| `n-descriptions-item` | `references/components/n-descriptions/api.md` |
-| `n-radio-group`, `n-radio-button` | `references/components/n-radio/api.md` |
-| `n-checkbox-group` | `references/components/n-checkbox/api.md` |
 | `n-grid-item` | `references/components/n-grid/api.md` |
-| `n-thing` header/main/footer | `references/components/n-thing/api.md` |
-| `n-carousel-item` | `references/components/n-carousel/api.md` |
-| `n-image-group` | `references/components/n-image/api.md` |
-| `n-page-header` header/footer | `references/components/n-page-header/api.md` |
-| `n-input-group`, `n-input-group-label` | `references/components/n-input/api.md` |
-| `n-button-group` | `references/components/n-button/api.md` |
-| `n-avatar-group` | `references/components/n-avatar/api.md` |
-| `n-float-button-group` | `references/components/n-float-button/api.md` |
-| `n-icon-wrapper` | `references/components/n-icon/api.md` |
+| `n-form-item-row` | (deprecated; use `n-form-item-gi`) |
+
+> Tags NOT listed above (`n-form-item`, `n-collapse-item`, `n-radio-group`, …)
+> are real Vue tags but do not appear in the official per-parent API tables.
+> If a user asks about one of them, route to the parent api.md and let the
+> reader infer from the parent's slot / props documentation; do not invent
+> sub-component-only API.
 
 ## Excluded (internal helpers, not user-facing)
 
-`composables/`, `locales/`, `themes/`, `theme-editor/`, `config-consumer/`, `legacy-transfer/`, `_internal/`, `_mixins/`, `_styles/`, `_utils/`.
+`composables/`, `locales/`, `themes/`, `theme-editor/`, `config-consumer/`, `_internal/`, `_mixins/`, `_styles/`, `_utils/`, plus the four alias directories `avatar-group/`, `button-group/`, `float-button-group/`, `icon-wrapper/` (no standalone official documentation).
 
 ## Maintenance
 

@@ -11,8 +11,9 @@ import re
 import sys
 from pathlib import Path
 
-SKILL_ROOT = Path(__file__).resolve().parent.parent
-TARGETS = [SKILL_ROOT / "references"]
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+SKILL_DIR = PROJECT_ROOT / "naive-ui"
+TARGETS = [SKILL_DIR / "references"]
 
 
 def is_frontmatter_end(lines: list[str]) -> int:

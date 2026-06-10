@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Input Otp API Reference
@@ -55,9 +55,9 @@ metadata:
 
 ## Methods / Exposes
 
-| 名称 | 类型 | 说明 | 版本 |
+| ���� | ���� | ˵�� | �汾 |
 | --- | --- | --- | --- |
-| focusOnChar | `(charIndex: number) => void` | Focus on a certain input box. | 2.43.0 |
+| `(charIndex: number) => void` | `(charIndex: number) => void` | Focus on a certain input box. | 2.43.0 |
 
 ## Source Files
 

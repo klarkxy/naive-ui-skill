@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Qr Code Patterns & Decisions
@@ -43,7 +43,7 @@ metadata:
 
 ## Upgrade notes
 
-- Last sync: `.cache\naive-ui\src\qr-code\demos\enUS\index.demo-entry.md`.
+- Last sync: `naive-ui\src\qr-code\demos\enUS\index.demo-entry.md`.
 - Version field: see the `Version` column in `api.md`.
 
 ## Antipatterns
@@ -54,6 +54,6 @@ metadata:
 
 ## Related official docs
 
-- Official EN: `.cache\naive-ui\src\qr-code\demos\enUS\index.demo-entry.md`
-- Official ZH: `.cache\naive-ui\src\qr-code\demos\zhCN\index.demo-entry.md`
+- Official EN: `naive-ui\src\qr-code\demos\enUS\index.demo-entry.md`
+- Official ZH: `naive-ui\src\qr-code\demos\zhCN\index.demo-entry.md`
 - Routing: `references/routing.md`

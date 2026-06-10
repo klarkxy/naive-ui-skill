@@ -7,29 +7,32 @@ A Claude skill for the [Naive UI](https://www.naiveui.com/) Vue 3 component libr
 ```
 naive-ui-skill/
 ├── README.md                         ← this file
-├── naive-ui/                         ← the publishable skill (copy this into your skills root)
+├── LICENSE                           ← repo-level MIT
+├── naive-ui/                         ← the SKILL PAYLOAD (copy this into your skills root)
 │   ├── SKILL.md                      ← single dispatcher entry (READ THIS FIRST)
-│   ├── scripts/                      ← shipped with the skill: maintenance + validation
-│   │   ├── sync_official.py
-│   │   ├── extract_official.py
-│   │   ├── generate_references.py    ← auto-runs cleanup_generated.py as a post-step
-│   │   ├── augment_tocs.py
-│   │   ├── validate.py
-│   │   └── package_skill.py
-│   ├── references/                   ← on-demand knowledge base
-│   │   ├── routing.md                ← component catalogue & selection matrix
-│   │   ├── foundation/               ← 10 cross-cutting foundation skills
-│   │   ├── rules/                    ← 37 practical rule references
-│   │   └── components/               ← 95 components × {api, examples, patterns}
-│   └── assets/
-│       ├── templates/                ← 5 generator templates
-│       └── data/                     ← official manifest snapshot
-├── scripts/                          ← developer-only, not in the packaged zip
-│   ├── cleanup_generated.py          ← invoked automatically by generate_references.py
+│   ├── LICENSE
+│   └── references/                   ← on-demand knowledge base
+│       ├── routing.md                ← component catalogue & selection matrix
+│       ├── foundation/               ← 10 cross-cutting foundation skills
+│       ├── rules/                    ← 37 practical rule references
+│       └── components/               ← 96 components × {api, examples, patterns}
+├── assets/                           ← generator inputs (NOT shipped)
+│   ├── templates/                    ← 5 generator templates
+│   └── data/                         ← official manifest + source metadata
+├── scripts/                          ← developer-only, NOT shipped
+│   ├── sync_official.py              ← shallow-clone tusen-ai/naive-ui
+│   ├── extract_official.py           ← parse demos into a manifest
+│   ├── generate_references.py        ← regenerate references/components/ + auto-clean
+│   ├── augment_tocs.py               ← inject ## Contents into >100-line references
+│   ├── validate.py                   ← structural and quality checks
+│   ├── package_skill.py              ← zip the skill payload for distribution
+│   ├── cleanup_generated.py          ← post-step: drop empty sections + fix double-bullets
 │   └── refresh.py                    ← one-shot wrapper for the full refresh pipeline
 └── dist/                             ← built zips (gitignored)
     └── naive-ui.zip
 ```
+
+The shipped skill payload (`naive-ui/`) contains **only** what Claude reads at skill-runtime: `SKILL.md`, `LICENSE`, and `references/`. All scripts and generator inputs stay at the project root.
 
 ## Install
 
@@ -66,25 +69,25 @@ python scripts/refresh.py --ref v2.40.0   # pin to a specific official tag
 python scripts/refresh.py --skip-sync     # reuse an existing .cache/naive-ui
 ```
 
-To run steps individually from inside `naive-ui/`:
+To run steps individually from the project root:
 
 ```bash
-cd naive-ui
-python scripts/sync_official.py --ref main            # shallow-clone to .cache/naive-ui
-python scripts/extract_official.py                    # parse demos into manifest
-python scripts/generate_references.py                 # regenerate + auto-clean
-python scripts/augment_tocs.py                        # inject ## Contents where missing
-python scripts/validate.py                            # must report 0 error
-python scripts/package_skill.py . ../dist             # rebuild dist/naive-ui.zip
+cd naive-ui-skill
+python scripts/sync_official.py --ref main     # shallow-clone to .cache/naive-ui
+python scripts/extract_official.py             # parse demos into manifest
+python scripts/generate_references.py          # regenerate + auto-clean
+python scripts/augment_tocs.py                 # inject ## Contents where missing
+python scripts/validate.py                     # must report 0 error
+python scripts/package_skill.py naive-ui dist  # rebuild dist/naive-ui.zip
 ```
 
 Then `git add -A && git commit -m "chore: refresh from official Naive UI <shortCommit>"`.
 
 ### What `cleanup_generated.py` does
 
-After every regeneration, `generate_references.py` invokes `../scripts/cleanup_generated.py` as a post-step. The cleanup sweeps two classes of placeholder noise out of the freshly generated files:
+After every regeneration, `generate_references.py` invokes `scripts/cleanup_generated.py` as a post-step. The cleanup sweeps two classes of placeholder noise out of the freshly generated files:
 
-1. **`api.md`** — drops `## X` sections whose body is just `_（无数据）_` (a placeholder emitted by `rows_to_table([])` when the upstream source has no events / slots / methods / sub-components). The `## Contents` TOC is rebuilt to list only surviving sections.
+1. **`api.md`** — drops `## X` sections whose body is empty or just `_（无数据）_`. The `## Contents` TOC is rebuilt to list only surviving sections.
 2. **`patterns.md`** — collapses `- - X` (double-bullet artefact from the template) into `- X`.
 
 It is idempotent: re-running it on already-clean files is a no-op.

@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Menu API Reference
@@ -39,7 +39,7 @@ metadata:
 | default-value | `string \| null` | `null` | Whether selected by default in uncontrolled mode. |  |
 | disabled-field | `string` | `'disabled'` | Field name of disabled. | 2.33.0 |
 | dropdown-placement | `'top-start' \| 'top' \| 'top-end' \| 'right-start' \| 'right' \| 'right-end' \| 'bottom-start' \| 'bottom' \| 'bottom-end' \| 'left-start' \| 'left' \| 'left-end' \| ` | `'top'` | Only effective in horizontal mode. |  |
-| dropdown-props | `DropdownProps` | `undefined` | The dropdown's props when menu is collapsed or horizontal mode，please see [Dropdown Props](dropdown#Dropdown-Props) |  |
+| dropdown-props | `DropdownProps` | `undefined` | The dropdown's props when menu is collapsed or horizontal mode��please see [Dropdown Props](dropdown#Dropdown-Props) |  |
 | expanded-keys | `Array<string>` | `undefined` | The expanded submenu keys. If set, menu will work in controlled manner and `default-expanded-names` won't work. |  |
 | expand-icon | `(option: MenuOption) => VNodeChild` | `undefined` | Render function that renders all expand icon. |  |
 | icon-size | `number` | `20` | The icon size when menu is not collapsed. |  |

@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Popconfirm API Reference
@@ -22,6 +22,7 @@ metadata:
 
 - [Props](#props)
 - [Slots](#slots)
+- [Methods / Exposes](#methods-exposes)
 - [Source Files](#source-files)
 - [Maintenance](#maintenance)
 
@@ -44,6 +45,10 @@ metadata:
 | action | `()` | Custom action. |
 | default | `()` | Popconfirm content. |
 | icon | `()` | Popconfirm icon. |
+
+## Methods / Exposes
+
+See [popover](popover#Popover-Methods)
 
 ## Source Files
 

@@ -20,9 +20,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = "https://github.com/tusen-ai/naive-ui.git"
-SKILL_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CACHE = SKILL_ROOT / ".cache" / "naive-ui"
-META_PATH = SKILL_ROOT / "assets" / "data" / "official-source.json"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_CACHE = PROJECT_ROOT / ".cache" / "naive-ui"
+META_PATH = PROJECT_ROOT / "assets" / "data" / "official-source.json"
 
 
 def run(cmd: list[str], cwd: Path | None = None) -> tuple[int, str, str]:

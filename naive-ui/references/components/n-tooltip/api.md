@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Tooltip API Reference
@@ -21,12 +21,17 @@ metadata:
 ## Contents
 
 - [Props](#props)
+- [Slots](#slots)
 - [Source Files](#source-files)
 - [Maintenance](#maintenance)
 
 ## Props
 
-_（无数据）_
+See [Popover Props](popover#Popover-Props)
+
+## Slots
+
+See [Popover Slots](popover#Popover-Slots)
 
 ## Source Files
 

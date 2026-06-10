@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Data Table Patterns & Decisions
@@ -27,7 +27,7 @@ metadata:
 
 | Option | When to use | When not to use |
 | --- | --- | --- |
-| `n-data-table` | DataTable is used to displays rows of structured data. | Task does not involve this component |
+| `n-data-table` |  | Task does not involve this component |
 | Sibling alternatives | Consult `references/routing.md` for the selection matrix | — |
 
 
@@ -44,7 +44,7 @@ metadata:
 
 ## Upgrade notes
 
-- Last sync: `.cache\naive-ui\src\data-table\demos\enUS\index.demo-entry.md`.
+- Last sync: `naive-ui\src\data-table\demos\enUS\index.demo-entry.md`.
 - Version field: see the `Version` column in `api.md`.
 
 ## Antipatterns
@@ -55,6 +55,6 @@ metadata:
 
 ## Related official docs
 
-- Official EN: `.cache\naive-ui\src\data-table\demos\enUS\index.demo-entry.md`
-- Official ZH: `.cache\naive-ui\src\data-table\demos\zhCN\index.demo-entry.md`
+- Official EN: `naive-ui\src\data-table\demos\enUS\index.demo-entry.md`
+- Official ZH: `naive-ui\src\data-table\demos\zhCN\index.demo-entry.md`
 - Routing: `references/routing.md`

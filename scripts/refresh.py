@@ -34,14 +34,15 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SKILL_ROOT = PROJECT_ROOT / "naive-ui"
+SCRIPTS = PROJECT_ROOT / "scripts"
 
 # (script path, runpy argv, friendly name)
 STEPS: list[tuple[Path, list[str], str]] = [
-    (SKILL_ROOT / "scripts" / "sync_official.py", [], "sync_official.py"),
-    (SKILL_ROOT / "scripts" / "extract_official.py", [], "extract_official.py"),
-    (SKILL_ROOT / "scripts" / "generate_references.py", [], "generate_references.py"),
-    (SKILL_ROOT / "scripts" / "augment_tocs.py", [], "augment_tocs.py"),
-    (SKILL_ROOT / "scripts" / "validate.py", [], "validate.py"),
+    (SCRIPTS / "sync_official.py", [], "sync_official.py"),
+    (SCRIPTS / "extract_official.py", [], "extract_official.py"),
+    (SCRIPTS / "generate_references.py", [], "generate_references.py"),
+    (SCRIPTS / "augment_tocs.py", [], "augment_tocs.py"),
+    (SCRIPTS / "validate.py", [], "validate.py"),
 ]
 
 
@@ -103,7 +104,7 @@ def main() -> int:
 
     if args.package:
         print(f"\n=== Packaging: package_skill.py ===")
-        package_script = SKILL_ROOT / "scripts" / "package_skill.py"
+        package_script = SCRIPTS / "package_skill.py"
         if not package_script.exists():
             print(f"  missing: {package_script}", file=sys.stderr)
             return 100

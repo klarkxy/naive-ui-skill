@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Config Provider API Reference
@@ -29,7 +29,7 @@ metadata:
 | Name | Type | Default | Description | Version |
 | --- | --- | --- | --- | --- |
 | abstract | `boolean` | `false` | If `n-config-provider` has no wrapper DOM |  |
-| breakpoints | `{ [k: string]: number }` | `{ xs: <640, s: ≥640, m: ≥1024, l: ≥1280, xl: ≥1536, xxl: ≥1920 }` | Responsive breakpoints, it will be used in `n-grid`. The prop is not responsive, you need to set it on its first mount. |  |
+| breakpoints | `{ [k: string]: number }` | `{ xs: <640, s: ��640, m: ��1024, l: ��1280, xl: ��1536, xxl: ��1920 }` | Responsive breakpoints, it will be used in `n-grid`. The prop is not responsive, you need to set it on its first mount. |  |
 | cls-prefix | `string` | `undefined` | The class prefix of all inner components. (Since `2.40.0`) If you don't set the `cls-prefix` prop of `n-config-provider`, it will inherit the class prefix from its parent by default. Note that this prop is not reactive. |  |
 | component-options | `GlobalComponentConfig` | `undefined` | Global component options. Some props can be configured per component. If set to `undefined` it will inherit its parent `n-config-provider`. |  |
 | date-locale | `DateLocale \| null` | `undefined` | The date locale object to be consumed by its child. If set to `null` it will use the default `dateEnUS` locale. If set to `undefined` it will inherit its parent `n-config-provider`. |  |

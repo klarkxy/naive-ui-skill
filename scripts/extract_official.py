@@ -15,9 +15,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-SKILL_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_SOURCE_META = SKILL_ROOT / "assets" / "data" / "official-source.json"
-DEFAULT_OUT = SKILL_ROOT / "assets" / "data" / "official-manifest.generated.json"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_SOURCE_META = PROJECT_ROOT / "assets" / "data" / "official-source.json"
+DEFAULT_OUT = PROJECT_ROOT / "assets" / "data" / "official-manifest.generated.json"
 
 
 # ---------- Markdown table parsing ----------
@@ -138,13 +138,20 @@ def extract_component(name: str, src_root: Path) -> dict | None:
         for heading in H_RE.findall(md):
             # locate table immediately after this heading
             block = _table_after_heading(md, heading)
-            if not block:
-                continue
-            rows = parse_table(block)
+            rows: list[dict] = []
+            note: str | None = None
+            if block:
+                rows = parse_table(block)
             if not rows:
-                continue
+                # No table — but upstream may use a `See [...]` link instead
+                # (e.g. n-tooltip inherits popover's API). Capture verbatim.
+                note = _see_hint_after_heading(md, heading)
+                if note is None:
+                    continue
             entry = {"title": heading, "lang": "enUS", "source": str(en_doc.relative_to(src_root.parent)),
                       "rows": rows}
+            if note is not None:
+                entry["note"] = note
             bucket = _bucket_for(heading)
             if bucket:
                 api[bucket].append(entry)
@@ -206,6 +213,30 @@ def _table_after_heading(md: str, heading: str) -> str | None:
     if len(block) < 2:
         return None
     return "\n".join(block)
+
+
+_SEE_HINT_RE = re.compile(r"See\s+\[([^\]]+)\]\(([^)]+)\)")
+
+
+def _see_hint_after_heading(md: str, heading: str) -> str | None:
+    """Return the `See [Foo](href)` link text+href if the section immediately
+    following `heading` contains one and no table. This mirrors upstream's
+    inheritance-style docs (e.g. `n-tooltip` props say "See Popover Props")."""
+    pat = re.compile(r"^#{2,3}\s+" + re.escape(heading) + r"\s*$", re.M)
+    m = pat.search(md)
+    if not m:
+        return None
+    start = m.end()
+    # Cap the search to the next 600 chars (one section's worth).
+    snippet = md[start : start + 600]
+    # Stop at the next heading
+    cut = re.search(r"^#{2,3}\s+", snippet, re.M)
+    if cut:
+        snippet = snippet[: cut.start()]
+    h = _SEE_HINT_RE.search(snippet)
+    if not h:
+        return None
+    return h.group(0)  # the full "See [Foo](href)" string
 
 
 # ---------- Driver ----------

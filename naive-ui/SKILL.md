@@ -51,51 +51,55 @@ Match the user task to one or more rows. Read the listed files **in full before 
 
 ## Repository Layout
 
+This directory is the **skill payload** — only what Claude reads at skill-runtime. Generator inputs and maintenance tools live at the `naive-ui-skill/` repo root (not shipped):
+
 ```text
-naive-ui/
+naive-ui/                                   ← the shipped skill
 ├── SKILL.md                                ← this file (dispatcher)
-├── assets/                                 ← generator inputs
-│   ├── templates/                          ← 5 generator templates (kept for reproducibility)
-│   └── data/                               ← official manifest snapshot
-├── references/                             ← on-demand knowledge base
-│   ├── routing.md                          ← component catalogue & selection matrix
-│   ├── foundation/                         ← 10 cross-cutting foundation skills
-│   │   ├── quickstart.md
-│   │   ├── theming.md
-│   │   ├── dark-mode.md
-│   │   ├── i18n.md
-│   │   ├── ssr.md
-│   │   ├── design-color.md
-│   │   ├── design-border.md
-│   │   ├── design-typography.md
-│   │   ├── design-layout.md
-│   │   └── design-overview.md
-│   ├── rules/                              ← 37 practical rule references
-│   │   ├── core-*.md                       ← core-setup, core-theme, core-ssr, …
-│   │   └── component-*.md                  ← component-form, component-datatable, …
-│   └── components/                         ← 95 components × {api, examples, patterns}
-│       └── n-<name>/
-│           ├── api.md
-│           ├── examples.md
-│           └── patterns.md
-└── scripts/                                ← Python utilities, exec'able by Claude
-    ├── sync_official.py                    ← shallow-clone tusen-ai/naive-ui into .cache/
-    ├── extract_official.py                 ← parse demos into data/official-manifest.generated.json
-    ├── generate_references.py              ← regenerate references/components/ from manifest + templates/
-    ├── augment_tocs.py                     ← inject `## Contents` into >100-line references
-    ├── validate.py                         ← check frontmatter, router, link, and ref depth
-    └── package_skill.py                    ← zip the skill into ../dist/naive-ui.zip
+├── LICENSE
+└── references/                             ← on-demand knowledge base
+    ├── routing.md                          ← component catalogue & selection matrix
+    ├── foundation/                         ← 10 cross-cutting foundation skills
+    │   ├── quickstart.md
+    │   ├── theming.md
+    │   ├── dark-mode.md
+    │   ├── i18n.md
+    │   ├── ssr.md
+    │   ├── design-color.md
+    │   ├── design-border.md
+    │   ├── design-typography.md
+    │   ├── design-layout.md
+    │   └── design-overview.md
+    ├── rules/                              ← 37 practical rule references
+    │   ├── core-*.md                       ← core-setup, core-theme, core-ssr, …
+    │   └── component-*.md                  ← component-form, component-datatable, …
+    └── components/                         ← 96 components × {api, examples, patterns}
+        └── n-<name>/
+            ├── api.md
+            ├── examples.md
+            └── patterns.md
 ```
 
-The `naive-ui-skill/` repo also has a project-root `scripts/` directory (not shipped with the skill — developer-only):
+The `naive-ui-skill/` repo root holds all generator inputs and maintenance scripts (none of which ship with the skill):
 
 ```
-naive-ui-skill/
+naive-ui-skill/                             ← the build repo (NOT shipped)
 ├── README.md
-├── naive-ui/                               ← the skill (this directory)
-└── scripts/                                ← developer-only, not in the packaged zip
-    ├── cleanup_generated.py                ← post-step that runs from inside generate_references.py
-    └── refresh.py                          ← one-shot wrapper: sync → extract → generate → cleanup → validate
+├── LICENSE
+├── naive-ui/                               ← the skill payload (this directory)
+├── assets/                                 ← generator inputs
+│   ├── templates/                          ← 5 generator templates
+│   └── data/                               ← official manifest + source metadata
+├── scripts/                                ← developer-only Python tools
+│   ├── sync_official.py
+│   ├── extract_official.py
+│   ├── generate_references.py              ← auto-runs cleanup_generated.py as a post-step
+│   ├── augment_tocs.py
+│   ├── validate.py
+│   ├── package_skill.py
+│   ├── cleanup_generated.py                ← post-step: drop empty sections + fix double-bullets
+│   └── refresh.py                          ← one-shot wrapper: sync → extract → generate → cleanup → validate
+└── dist/naive-ui.zip                       ← built artefact (gitignored)
 ```
 
 ## Operating Loop
@@ -128,11 +132,9 @@ python scripts/refresh.py --ref v2.40.0  # pin to a specific official tag
 python scripts/refresh.py --skip-sync    # reuse an existing .cache/naive-ui
 ```
 
-Or run each step individually from inside the `naive-ui/` directory:
+Or run each step individually from the `naive-ui-skill/` repo root:
 
 ```bash
-cd naive-ui
-
 # 1. Sync the official Naive UI source into .cache/naive-ui
 python scripts/sync_official.py --ref main
 
@@ -140,9 +142,9 @@ python scripts/sync_official.py --ref main
 python scripts/extract_official.py
 
 # 3. Regenerate all references/components/ from manifest + assets/templates/.
-#    generate_references.py auto-invokes ../scripts/cleanup_generated.py as a
-#    post-step, so freshly regenerated files have no `_（无数据）_` placeholders
-#    or `- - ` double-bullets.
+#    generate_references.py auto-invokes scripts/cleanup_generated.py as a
+#    post-step, so freshly regenerated files have no empty sections or
+#    `- - ` double-bullets.
 python scripts/generate_references.py
 
 # 4. (optional) Inject `## Contents` blocks into any reference file that grew past 100 lines
@@ -151,12 +153,12 @@ python scripts/augment_tocs.py
 # 5. Validate the skill (frontmatter, router, link integrity, ref depth)
 python scripts/validate.py
 
-# 6. Package for distribution (zip this directory into ../dist/naive-ui.zip)
-python scripts/package_skill.py . ../dist
+# 6. Package for distribution (zip naive-ui/ into dist/naive-ui.zip)
+python scripts/package_skill.py naive-ui dist
 
 # 7. (optional) Re-run the cleanup on its own — idempotent
-python ../scripts/cleanup_generated.py --dry-run   # preview
-python ../scripts/cleanup_generated.py              # apply
+python scripts/cleanup_generated.py --dry-run   # preview
+python scripts/cleanup_generated.py             # apply
 ```
 
 > **STOP. Run `python scripts/validate.py` after every regeneration.** Validation must report 0 error before publishing.

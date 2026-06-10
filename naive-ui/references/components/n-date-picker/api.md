@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Date Picker API Reference
@@ -161,15 +161,15 @@ metadata:
 | prev-year | `()` | Fast prev icon of the date panel. | 2.33.4 |
 | separator | `()` | Separator of range picker. | 2.29.0 |
 
-| 名称 | 参数 | 说明 | 版本 |
+| ���� | ���� | ˵�� | �汾 |
 | --- | --- | --- | --- |
-| clear | `(props: { onClear: () => void, text: string })` | Clear button of the panel. | 2.40.0 |
-| now | `(props: { onNow: () => void, text: string })` | Now button of the panel. | 2.40.0 |
-| clear | `(props: { onClear: () => void, text: string })` | Clear button of the panel. | 2.40.0 |
-| confirm | `(props: { onConfirm: () => void, disabled: boolean, text: string })` | Confirm button of the panel. | 2.40.0 |
-| clear | `(props: { onClear: () => void, text: string })` | Clear button of the panel. | 2.40.0 |
-| confirm | `(props: { onConfirm: () => void, disabled: boolean, text: string })` | Confirm button of the panel. | 2.40.0 |
-| now | `(props: { onNow: () => void, text: string })` | Now button of the panel. | 2.40.0 |
+| `(props: { onClear: () => void, text: string })` | `(props: { onClear: () => void, text: string })` | Clear button of the panel. | 2.40.0 |
+| `(props: { onNow: () => void, text: string })` | `(props: { onNow: () => void, text: string })` | Now button of the panel. | 2.40.0 |
+| `(props: { onClear: () => void, text: string })` | `(props: { onClear: () => void, text: string })` | Clear button of the panel. | 2.40.0 |
+| `(props: { onConfirm: () => void, disabled: boolean, text: string })` | `(props: { onConfirm: () => void, disabled: boolean, text: string })` | Confirm button of the panel. | 2.40.0 |
+| `(props: { onClear: () => void, text: string })` | `(props: { onClear: () => void, text: string })` | Clear button of the panel. | 2.40.0 |
+| `(props: { onConfirm: () => void, disabled: boolean, text: string })` | `(props: { onConfirm: () => void, disabled: boolean, text: string })` | Confirm button of the panel. | 2.40.0 |
+| `(props: { onNow: () => void, text: string })` | `(props: { onNow: () => void, text: string })` | Now button of the panel. | 2.40.0 |
 
 ## Methods / Exposes
 

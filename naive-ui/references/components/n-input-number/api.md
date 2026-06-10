@@ -6,7 +6,7 @@ metadata:
   version: "7a12097"
   source: "tusen-ai/naive-ui"
   sourceRef: "7a12097edc91962712d78f8cd9e301928eb5e558"
-  generatedAt: "2026-06-09T08:19:02.819Z"
+  generatedAt: "2026-06-10T05:47:50.172850+00:00"
 ---
 
 # Input Number API Reference
@@ -37,7 +37,7 @@ metadata:
 | default-value | `number \| null` | `null` | Default value when not manually set. |  |
 | disabled | `boolean` | `false` | Whether to disable the input. |  |
 | format | `(value: number \| null) => string` | `undefined` | Method to format value. If it's set, `update-value-on-input` will be disabled. | 2.30.0 |
-| input-props | `InputHTMLAttributes` | `undefined` | The dom props of the input element inside the component. For avaiable attributes, [see here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input). Warning：It won't override internal props with the same name (except `type`). | 2.37.0 |
+| input-props | `InputHTMLAttributes` | `undefined` | The dom props of the input element inside the component. For avaiable attributes, [see here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input). Warning��It won't override internal props with the same name (except `type`). | 2.37.0 |
 | keyboard | `{ ArrowUp?: boolean, ArrowDown?: boolean }` | `{}` | Control the keyboard behavior. If you set corresponding to false, the keyboard behavior will be disabled. |  |
 | loading | `boolean` | `undefined` | Set loading state. If set (true/false), the element will always take up enough space for the loading indicator. |  |
 | max | `number` | `undefined` | The max value. |  |
