@@ -1,5 +1,7 @@
 # Naive UI Skill
 
+> 🌐 **You are reading the English version.** [🇨🇳 Switch to zh-CN →](./README.zh-CN.md)
+
 A Claude skill for the [Naive UI](https://www.naiveui.com/) Vue 3 component library. Generated from the official `tusen-ai/naive-ui` source.
 
 ## Install
@@ -29,8 +31,11 @@ Uses POSIX `curl` + `tar` only. Set `NAIVE_UI_SKILL_DIR` to override the target.
 git clone https://github.com/klarkxy/naive-ui-skill.git
 cp -r naive-ui-skill/skills/naive-ui ~/.claude/skills/
 
-# or use the prebuilt zip
-unzip naive-ui-skill/dist/naive-ui.zip -d ~/.claude/skills/
+# or build and install the zip locally
+git clone https://github.com/klarkxy/naive-ui-skill.git
+cd naive-ui-skill
+python scripts/package_skill.py
+unzip dist/naive-ui.zip -d ~/.claude/skills/
 ```
 
 > For Codex / Trae / other agents, replace `~/.claude/skills/` with `~/.codex/skills/` / `~/.trae/skills/` etc.
@@ -43,7 +48,7 @@ Once installed, invoke the skill explicitly:
 /skill naive-ui
 ```
 
-Or rely on the description match: any user request mentioning "Naive UI", `n-data-table`, `n-form`, "Naive UI 组件 / 主题 / 暗色", "nuxt 集成 naive-ui", etc. should trigger this skill.
+Or rely on the description match: any user request mentioning "Naive UI", `n-data-table`, `n-form`, "Naive UI components / theming / dark mode", "nuxt integration with naive-ui", etc. should trigger this skill.
 
 ## Source & License
 

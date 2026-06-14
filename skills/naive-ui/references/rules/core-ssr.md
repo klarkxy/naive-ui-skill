@@ -39,9 +39,9 @@ See [Nuxt.js](core-nuxtjs.md).
 
 See [Vitepress](core-vitepress.md).
 
-## Vite SSG/SSE
+## Vite SSG
 
-See [Vite SSG/SSE](core-vite-ssge.md).
+See [Vite SSG](core-vite-ssg.md).
 
 ## Vite Example
 

@@ -331,5 +331,5 @@ Naive UI uses standardized heights for form controls and interactive elements.
 |----------|-------------|
 | [Typography Components](https://www.naiveui.com/en-US/os-theme/components/typography) | Full typography documentation |
 | [useThemeVars](https://www.naiveui.com/en-US/os-theme/docs/theme) | Access theme variables |
-| [Color Design](./naive-ui-design-color/SKILL.md) | Text color variables |
-| [Border Design](./naive-ui-design-border/SKILL.md) | Related design specifications |
+| [Color Design](./design-color.md) | Text color variables |
+| [Border Design](./design-border.md) | Related design specifications |

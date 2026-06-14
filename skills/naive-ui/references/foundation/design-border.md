@@ -28,7 +28,7 @@ metadata:
 | 任务 | 必须读 |
 | --- | --- |
 | 圆角 / 阴影 / 线宽 | 本 skill 的 "Border Radius" / "Shadows" / "Border Width" 段 |
-| 在 theme-overrides 中覆盖 | [naive-ui-theming/SKILL.md](../naive-ui-theming/SKILL.md) |
+| 在 theme-overrides 中覆盖 | [theming.md](theming.md) |
 
 
 Naive UI standardizes borders used in buttons, cards, pop-ups, and other components for consistent visual design.
@@ -262,4 +262,4 @@ Naive UI uses standardized cubic-bezier timing functions for smooth transitions.
 |----------|-------------|
 | [useThemeVars](https://www.naiveui.com/en-US/os-theme/docs/theme) | Access theme variables in JavaScript |
 | [n-element](https://www.naiveui.com/en-US/os-theme/components/element) | Use CSS variables in templates |
-| [Color Design](./naive-ui-design-color/SKILL.md) | Color specifications |
+| [Color Design](./design-color.md) | Color specifications |

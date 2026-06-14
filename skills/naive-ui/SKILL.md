@@ -1,7 +1,7 @@
 ---
 name: naive-ui
-description: This skill is a reference manual for the Naive UI Vue 3 component library. Use it when the user works with Naive UI. Not for: other UI libraries (Element Plus, Ant Design Vue, Vuetify, PrimeVue) or generic Vue 3 questions.
-license: MIT
+description: This skill is a reference manual for the Naive UI Vue 3 component library. Use it when the user works with Naive UI. Not for other UI libraries (Element Plus, Ant Design Vue, Vuetify, PrimeVue) or generic Vue 3 questions.
+license: SATA-2.0 
 metadata:
   source: tusen-ai/naive-ui
   sourceRef: 7a12097edc91962712d78f8cd9e301928eb5e558

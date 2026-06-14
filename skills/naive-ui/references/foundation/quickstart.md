@@ -27,7 +27,7 @@ metadata:
 | 任务 | 必须读 |
 | --- | --- |
 | 安装包 | `pnpm add naive-ui`（或 npm/yarn 等价命令） |
-| 按需引入与自动导入 | 本 skill 的 "Auto Import" 段 + [naive-ui-theming/SKILL.md](../naive-ui-theming/SKILL.md) 的全局配置 |
+| 按需引入与自动导入 | 本 skill 的 "Auto Import" 段 + [theming.md](theming.md) 的全局配置 |
 | Provider 顺序（n-config-provider / n-loading-bar / n-message / n-notification / n-dialog） | 本 skill 的 "Global Config Provider" 段 |
 | UMD / SFC / 字体配置 | 本 skill 的 "Usage in SFC" / "UMD" / "Fonts" 段 |
 

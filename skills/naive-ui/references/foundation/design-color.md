@@ -30,7 +30,7 @@ metadata:
 | --- | --- |
 | 理解主色 / 成功 / 警告 / 错误语义 | 本 skill 的 "Primary Colors" / "Semantic Colors" 段 |
 | 导出颜色到 Figma / Sketch | 本 skill 的 "Color Tokens" 段 |
-| 覆盖主题色 | [naive-ui-theming/SKILL.md](../naive-ui-theming/SKILL.md) + [naive-ui-dark-mode/SKILL.md](../naive-ui-dark-mode/SKILL.md) |
+| 覆盖主题色 | [theming.md](theming.md) + [dark-mode.md](dark-mode.md) |
 
 
 Naive UI uses a carefully designed color system with primary green color and semantic colors for different states, providing a consistent look and feel for the products you build.

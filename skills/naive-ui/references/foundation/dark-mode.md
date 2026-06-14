@@ -461,10 +461,10 @@ watch(isDark, (value) => {
 
 ## Related Skills
 
-- [n-config-provider](../components/n-config-provider/SKILL.md): Global configuration component
-- [n-global-style](../components/n-global-style/SKILL.md): Global style synchronization
-- [naive-ui-theming](../naive-ui-theming/SKILL.md): Theme customization guide
-- [naive-ui-ssr](../naive-ui-ssr/SKILL.md): SSR considerations for dark mode
+- [n-config-provider](../components/n-config-provider/api.md): Global configuration component
+- [n-global-style](../components/n-global-style/api.md): Global style synchronization
+- [theming.md](theming.md): Theme customization guide
+- [ssr.md](ssr.md): SSR considerations for dark mode
 
 ## 🚨 关键坑点速记
 

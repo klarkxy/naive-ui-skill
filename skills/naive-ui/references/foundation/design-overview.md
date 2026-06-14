@@ -26,7 +26,7 @@ metadata:
 | 任务 | 必须读 |
 | --- | --- |
 | 快速过一遍设计系统 | 本 skill 的 "Overview" 段 |
-| 深入到具体子规范 | [naive-ui-design-color/SKILL.md](../naive-ui-design-color/SKILL.md) / [naive-ui-design-border/SKILL.md](../naive-ui-design-border/SKILL.md) / [naive-ui-design-typography/SKILL.md](../naive-ui-design-typography/SKILL.md) / [naive-ui-design-layout/SKILL.md](../naive-ui-design-layout/SKILL.md) |
+| 深入到具体子规范 | [design-color.md](design-color.md) / [design-border.md](design-border.md) / [design-typography.md](design-typography.md) / [design-layout.md](design-layout.md) |
 
 
 Quick reference to all Naive UI components organized by category. Naive UI is a Vue 3 component library that is fairly complete, themeable, written in TypeScript, and fast.
@@ -282,10 +282,10 @@ const themeVars = useThemeVars()
 
 | Skill | Description |
 |-------|-------------|
-| [naive-ui-design-color](./naive-ui-design-color/SKILL.md) | Color design specifications |
-| [naive-ui-design-border](./naive-ui-design-border/SKILL.md) | Border design specifications |
-| [naive-ui-design-typography](./naive-ui-design-typography/SKILL.md) | Typography specifications |
-| [naive-ui-design-layout](./naive-ui-design-layout/SKILL.md) | Layout system documentation |
+| [naive-ui-design-color](./design-color.md) | Color design specifications |
+| [naive-ui-design-border](./design-border.md) | Border design specifications |
+| [naive-ui-design-typography](./design-typography.md) | Typography specifications |
+| [naive-ui-design-layout](./design-layout.md) | Layout system documentation |
 
 ---
 

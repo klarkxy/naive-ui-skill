@@ -419,4 +419,4 @@ const handleClickOutside = () => {
 
 ## Related
 
-- [Select Component Guide](../../naive-ui/references/component-select.md)
+- [Select Component Guide](component-select.md)

@@ -27,8 +27,8 @@ metadata:
 | --- | --- |
 | 切深/浅主题或自定义主色 | 本 skill 的 "Theme Switching" 与 "Custom Theme Overrides" 段 |
 | 在组件内拿到主题变量 | 本 skill 的 "Using Theme Variables with useThemeVars" 段 |
-| 暗色主题适配（OS 主题检测） | [naive-ui-dark-mode/SKILL.md](../naive-ui-dark-mode/SKILL.md) |
-| Provider 顺序与 SSR | [naive-ui-quickstart/SKILL.md](../naive-ui-quickstart/SKILL.md) + [naive-ui-ssr/SKILL.md](../naive-ui-ssr/SKILL.md) |
+| 暗色主题适配（OS 主题检测） | [dark-mode.md](dark-mode.md) |
+| Provider 顺序与 SSR | [quickstart.md](quickstart.md) + [ssr.md](ssr.md) |
 
 
 Learn how to customize themes, apply dark mode, and create themed components in Naive UI.

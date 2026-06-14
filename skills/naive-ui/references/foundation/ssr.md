@@ -369,6 +369,6 @@ if (import.meta.env.SSR) {
 
 ## Related Skills
 
-- [n-config-provider](../components/n-config-provider/SKILL.md): Global configuration for SSR optimization
-- [naive-ui-theming](../naive-ui-theming/SKILL.md): Theme customization in SSR
-- [naive-ui-dark-mode](../naive-ui-dark-mode/SKILL.md): Dark mode with SSR considerations
+- [n-config-provider](../components/n-config-provider/api.md): Global configuration for SSR optimization
+- [theming.md](theming.md): Theme customization in SSR
+- [dark-mode.md](dark-mode.md): Dark mode with SSR considerations

@@ -1,6 +1,6 @@
 ---
-name: core-vite-ssge
-description: Naive UI documentation for Vite SSG/SSE
+name: core-vite-ssg
+description: Naive UI documentation for Vite SSG
 ---
 ## Contents
 
@@ -8,7 +8,7 @@ description: Naive UI documentation for Vite SSG/SSE
 - [Setup Guide](#setup-guide)
 
 
-# Vite SSG/SSE
+# Vite SSG
 
 ## Caveat
 
@@ -16,7 +16,7 @@ This document pertains to SSR (Server-Side Rendering). Please familiarize yourse
 
 ## Setup Guide
 
-If you are using `vite-sse` or `vite-ssg`. Follow the following steps to setup `naive-ui`.
+If you are using `vite-ssg`. Follow the following steps to setup `naive-ui`.
 
 ### 1. Install `naive-ui`, `@css-render/vue3-ssr`
 
@@ -52,4 +52,4 @@ defineConfig({
 })
 ```
 
-Then you can using naive-ui in `vite-ssg` or `vite-sse` project.
+Then you can using naive-ui in `vite-ssg` project.

@@ -131,6 +131,38 @@ def main() -> int:
                     bad = [b for b in bad if b != "`references/routing.md`"]
                     if bad:
                         warnings.append(f"{md.relative_to(root)}: contains nested references/ link(s) — prefer routing via SKILL.md")
+                    # Broken relative links (escapes skill root, or points
+                    # at a sibling-skill file that no longer exists in this
+                    # single-skill layout). Allow http(s):// and #fragment
+                    # links; flag relative paths that don't resolve to an
+                    # existing file inside `root`. Common historical
+                    # offender: ../naive-ui-theming/SKILL.md from a
+                    # foundation file (multi-skill layout, no longer ships).
+                    # If a reference wants to point at the upstream docs
+                    # site, it should use a full https URL — generator
+                    # output should be patched to do the same.
+                    for href in re.findall(r"\]\(([^)]+)\)", txt):
+                        if href.startswith(("http://", "https://", "#", "mailto:")):
+                            continue
+                        # strip an optional title ("foo.md \"title\"")
+                        clean = href.split(None, 1)[0]
+                        if not (clean.startswith("./") or clean.startswith("../")):
+                            continue
+                        target = (md.parent / clean).resolve()
+                        try:
+                            target.relative_to(root)
+                        except ValueError:
+                            errors.append(
+                                f"{md.relative_to(root)}: link '{href}' escapes the skill root — "
+                                f"rewrite as a path inside this skill"
+                            )
+                            continue
+                        if not target.exists():
+                            errors.append(
+                                f"{md.relative_to(root)}: broken relative link '{href}' "
+                                f"(resolves to {target.relative_to(root)}); use a full URL if it "
+                                f"intentionally points at the upstream docs site"
+                            )
                     lines = txt.splitlines()
                     if len(lines) > 100 and not re.search(r"^##\s+Contents\s*$", txt, re.M):
                         warnings.append(f"{md.relative_to(root)}: {len(lines)} lines but no '## Contents'")
